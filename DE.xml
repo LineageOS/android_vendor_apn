@@ -340,6 +340,52 @@
     />
     <apn
         mcc="262"
+        mnc="23"
+        carrier="1and1 IMS"
+        apn="ims"
+        bearer_bitmask="14|18|20"
+        carrier_id="2536"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 Internet"
+        apn="internet"
+        authtype="1"
+        carrier_id="2536"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 MMS"
+        apn="mms"
+        carrier_id="2536"
+        mmsc="http://mms.1und1-mobilfunk.de/"
+        mmsport="80"
+        mmsproxy="2a00:0fbc:2200:c999:0109:1f87:2:1"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="mms"
+    />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 XCAP"
+        apn="hos"
+        bearer_bitmask="14"
+        carrier_id="2536"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="262"
         mnc="42"
         carrier="Truphone"
         apn="truphone.com"
