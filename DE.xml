@@ -359,4 +359,53 @@
         type="default,supl"
         user="lmde"
     />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 Internet"
+        carrier_id="2536"
+        apn="internet"
+        authtype="1"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 IMS"
+        carrier_id="2536"
+        apn="ims"
+        authtype="1"
+        bearer_bitmask="14|18|20"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+    />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 XCAP"
+        carrier_id="2536"
+        apn="ims"
+        authtype="1"
+        bearer_bitmask="14"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+    />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="1and1 MMS"
+        carrier_id="2536"
+        apn="ims"
+        authtype="1"
+        mmsc="http://mms.1und1-mobilfunk.de/"
+        mmsport="80"
+        mmsproxy="2a00:0fbc:2200:c999:0109:1f87:2:1"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="mms"
+    />
 </apns>
