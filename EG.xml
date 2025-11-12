@@ -113,6 +113,15 @@
     />
     <apn
         mcc="602"
+        mnc="04"
+        carrier="WE EG"
+        apn="internet.te.eg"
+        password=""
+        type="default"
+        user=""
+    />
+    <apn
+        mcc="602"
         mnc="12"
         carrier="Vodafone GPRS Internet"
         apn="internet.vodafone.net"
