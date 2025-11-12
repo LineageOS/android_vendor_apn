@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df0c065d_361b5d11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-11-12T06:55:51Z",
+      "side": 1,
+      "message": "OOS has these entries:\n\n```\n\u003capn carrier\u003d\"we internet\"\n    apn\u003d\"internet.te.eg\"\n    mcc\u003d\"602\"   \n    mnc\u003d\"04\"\n    type\u003d\"default\"\n    protocol\u003d\"IPV4V6\"  \n    roaming_protocol\u003d\"IPV4V6\"  \n/\u003e\n  \n\u003capn carrier\u003d\"mms\"\n    mcc\u003d\"602\"\n    mnc\u003d\"04\"\n    apn\u003d\"mms.te.eg\"\n    mmsc\u003d\"http://wemmsc.te.eg:8080\"\n    mmsproxy\u003d\"wemmsc.te.eg\"\n    mmsport\u003d\"8080\"\n    type\u003d\"mms\"    \n/\u003e\n\n\u003capn carrier\u003d\"ims\"\n    mcc\u003d\"602\"\n    mnc\u003d\"04\"\n    apn\u003d\"ims\"\n    type\u003d\"ims\"\n    protocol\u003d\"IPV4V6\"\n    roaming_protocol\u003d\"IPV4V6\"\n/\u003e\n```\n\nsure you don\u0027t want the ims/mms ones?",
+      "revId": "f367da0b54f68297e32090d849658e20d3ce583f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
