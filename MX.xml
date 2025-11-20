@@ -220,4 +220,14 @@
         type="mms"
         user="movistar"
     />
+    <apn
+        mcc="334"
+        mnc="140"
+        carrier="Bait Internet"
+        apn="internet.wm.com"
+        authtype="1"
+        type="default,supl"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+    />
 </apns>
