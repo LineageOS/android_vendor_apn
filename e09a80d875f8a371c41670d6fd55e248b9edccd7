@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1aa4e78_ac9933b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-04T23:00:58Z",
+      "side": 1,
+      "message": "Should be ordered by mcc/mnc, so at the bottom?",
+      "revId": "e09a80d875f8a371c41670d6fd55e248b9edccd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
