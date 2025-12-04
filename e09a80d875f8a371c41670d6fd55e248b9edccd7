@@ -16,6 +16,24 @@
       "message": "Should be ordered by mcc/mnc, so at the bottom?",
       "revId": "e09a80d875f8a371c41670d6fd55e248b9edccd7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6ff9889_63341ca6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-12-04T23:01:43Z",
+      "side": 1,
+      "message": "format.py needs to be fixed for that; out of scope of this change.",
+      "parentUuid": "d1aa4e78_ac9933b4",
+      "revId": "e09a80d875f8a371c41670d6fd55e248b9edccd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
