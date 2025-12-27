@@ -91,7 +91,7 @@
     <apn
         mcc="226"
         mnc="05"
-        carrier="Digi Mobil"
+        carrier="Digi.Mobil"
         apn="internet"
         mmsc=""
         password=""
