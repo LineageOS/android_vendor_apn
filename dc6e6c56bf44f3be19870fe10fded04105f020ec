@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a38708f0_f8adbfb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-01-18T19:41:02Z",
+      "side": 1,
+      "message": "Maybe we can run reuse lint in pre-commit or github actions?",
+      "revId": "dc6e6c56bf44f3be19870fe10fded04105f020ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
