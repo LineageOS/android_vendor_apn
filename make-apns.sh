@@ -5,11 +5,13 @@
 #
 
 APNS="<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+# REUSE-IgnoreStart
 APNS+="<!--\n"
 APNS+="    SPDX-FileCopyrightText: Google Inc\n"
 APNS+="    SPDX-FileCopyrightText: The LineageOS Project\n"
 APNS+="    SPDX-License-Identifier: Apache-2.0\n"
 APNS+="-->\n"
+# REUSE-IgnoreEnd
 APNS+="<apns version=\"8\" xmlns:xi=\"http://www.w3.org/2001/XInclude\">\n"
 
 for f in "$@"; do
