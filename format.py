@@ -61,11 +61,13 @@ def process_file(xml_path):
     with open(xml_path, 'w', encoding='utf-8') as f:
         header = [
             '<?xml version="1.0" encoding="utf-8"?>',
+            # REUSE-IgnoreStart
             '<!--',
             '    SPDX-FileCopyrightText: Google Inc',
             '    SPDX-FileCopyrightText: The LineageOS Project',
             '    SPDX-License-Identifier: Apache-2.0',
             '-->\n',
+            # REUSE-IgnoreEnd
         ]
         f.write('\n'.join(header))
         f.write(formatted + '\n')
