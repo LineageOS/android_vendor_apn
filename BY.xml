@@ -122,7 +122,7 @@
         mcc="257"
         mnc="04"
         carrier="Life:) // Internet"
-        apn="mms.life.com.by"
+        apn="internet.life.com.by"
         mmsc=""
         password=""
         port=""
@@ -135,7 +135,7 @@
         mnc="04"
         carrier="Life:) // MMS"
         apn="mms.life.com.by"
-        mmsc="http://mms.life.com.by/mmsc/"
+        mmsc="http://mms.life.com.by/mmsc"
         mmsport="8080"
         mmsproxy="10.10.10.20"
         password=""
@@ -143,24 +143,5 @@
         proxy=""
         type="mms"
         user=""
-    />
-    <apn
-        mcc="257"
-        mnc="04"
-        carrier="life Internet"
-        apn="internet.life.com.by"
-        type="default,supl"
-    />
-    <apn
-        mcc="257"
-        mnc="04"
-        carrier="life MMS"
-        apn="mms.life.com.by"
-        mmsc="http://mms.life.com.by/mmsc"
-        mmsport="8080"
-        mmsproxy="10.10.10.20"
-        port=""
-        proxy=""
-        type="mms"
     />
 </apns>
