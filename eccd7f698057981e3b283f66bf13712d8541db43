@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3f293a3_427e5a3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2026-02-08T04:21:55Z",
+      "side": 1,
+      "message": "Fizz also switched to IPv6 for IMS (and IPv4 stopped working), so this seems like a trend for Canadian carriers. This also matches the Pixel CarrierSettings exactly, so I\u0027m moderately confident this works fine. It\u0027d be nice for someone to test it first though.",
+      "revId": "eccd7f698057981e3b283f66bf13712d8541db43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
