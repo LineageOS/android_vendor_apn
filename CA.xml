@@ -683,8 +683,6 @@
         mmsc="http://mmss.mobi.eastlink.ca"
         mmsport="8080"
         mmsproxy="10.232.12.49"
-        mtu="1500"
-        skip_464xlat="1"
         type="mms"
     />
     <apn
