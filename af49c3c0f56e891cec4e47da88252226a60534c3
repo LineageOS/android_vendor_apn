@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8b79161_74f6490c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2026-02-08T03:42:10Z",
+      "side": 1,
+      "message": "Although I\u0027ve used my apndiff script and manually proofread it, I have no way of testing these changes, so I\u0027d prefer if someone on Rogers/Fido/Chatr could verify that data and IMS works.\n\nTo test without re-building: Run `make-apns.sh`, push the output to `/data/misc/apns/apns-conf.xml` (using adb root), run `adb shell \"sed -i -E \u0027s/(\u003cstring name\u003d.ro_build_id.\u003e)[^\u003c]+(\u003c.string\u003e)/\\1dummy\\2/g\u0027 /data/user_de/0/com.android.providers.telephony/shared_prefs/build-id.xml\"` (to ensure the changes get picked up), reboot, then reset network settings (to clear any user changes).",
+      "revId": "af49c3c0f56e891cec4e47da88252226a60534c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
