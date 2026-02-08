@@ -907,6 +907,34 @@
     />
     <apn
         mcc="302"
+        mnc="480"
+        carrier="Eeyou"
+        apn="apn.em.com"
+        mmsc="http://mms.eeyoumobility.com"
+        mmsport="80"
+        mmsproxy="mms.eeyoumobility.com"
+        mvno_match_data="3024800002"
+        mvno_type="imsi"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms"
+    />
+    <apn
+        mcc="302"
+        mnc="480"
+        carrier="SSI"
+        apn="ssi992.ssimicro.com"
+        mmsc="http://mms.ssimicro.com"
+        mmsport="80"
+        mmsproxy="mms.ssimicro.com"
+        mvno_match_data="302480017"
+        mvno_type="imsi"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms"
+    />
+    <apn
+        mcc="302"
         mnc="490"
         carrier="Freedom Mobile"
         apn="internet.freedommobile.ca"
