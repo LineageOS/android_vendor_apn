@@ -60,10 +60,10 @@
         mcc="302"
         mnc="150"
         carrier="Cogeco"
-        apn="data.cogecomobile.ca"
+        apn="data.cogeco"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,xcap"
+        type="default"
     />
     <apn
         mcc="302"
@@ -73,6 +73,18 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
+    />
+    <apn
+        mcc="302"
+        mnc="150"
+        carrier="Cogeco MMS"
+        apn="mms.cogeco"
+        mmsc="http://mms.cogeco.ca/"
+        mmsport="8080"
+        mmsproxy="10.232.12.49"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="mms"
     />
     <apn
         mcc="302"
@@ -87,10 +99,10 @@
         mcc="302"
         mnc="151"
         carrier="Cogeco"
-        apn="data.cogecomobile.ca"
+        apn="data.cogeco"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,xcap"
+        type="default"
     />
     <apn
         mcc="302"
@@ -100,6 +112,18 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
+    />
+    <apn
+        mcc="302"
+        mnc="151"
+        carrier="Cogeco MMS"
+        apn="mms.cogeco"
+        mmsc="http://mms.cogeco.ca/"
+        mmsport="8080"
+        mmsproxy="10.232.12.49"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="mms"
     />
     <apn
         mcc="302"
