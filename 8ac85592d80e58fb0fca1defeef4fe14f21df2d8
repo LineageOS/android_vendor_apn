@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c17d6fd_a7ae7088",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2026-02-08T03:55:48Z",
+      "side": 1,
+      "message": "I\u0027m fairly confident in this change. The old APNs were from before Cogeco had started providing service, so it\u0027s highly unlikely that this could make things worse.",
+      "revId": "8ac85592d80e58fb0fca1defeef4fe14f21df2d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
