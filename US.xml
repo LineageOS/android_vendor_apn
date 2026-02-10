@@ -903,6 +903,19 @@
     />
     <apn
         mcc="310"
+        mnc="240"
+        carrier="tello"
+        apn="tello"
+        carrier_id="2578"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="6941"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
         mnc="260"
         carrier="Consumer Cellular"
         apn="wholesale"
@@ -1303,6 +1316,19 @@
         mvno_type="gid"
         type="mms"
         user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        carrier="tello"
+        apn="tello"
+        carrier_id="2578"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="6941"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,mms"
     />
     <apn
         mcc="310"
