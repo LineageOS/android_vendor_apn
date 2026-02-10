@@ -149,8 +149,8 @@
     />
     <apn
         mcc="286"
-        mnc="299"
-        carrier="Netgsm"
+        mnc="13"
+        carrier="Netgsm Internet"
         apn="internet"
         mmsc=""
         password=""
