@@ -68,20 +68,20 @@
     <apn
         mcc="460"
         mnc="01"
-        carrier="沃宽带用户手机上网"
-        apn="3gwap"
-        port="80"
-        proxy="10.0.0.172"
-        type="default,supl"
-    />
-    <apn
-        mcc="460"
-        mnc="01"
         carrier="沃宽带用户连接互联网"
         apn="3gnet"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,supl,xcap"
+    />
+    <apn
+        mcc="460"
+        mnc="01"
+        carrier="沃宽带用户手机上网"
+        apn="3gwap"
+        port="80"
+        proxy="10.0.0.172"
+        type="default,supl"
     />
     <apn
         mcc="460"
