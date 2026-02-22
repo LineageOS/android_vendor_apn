@@ -16,6 +16,24 @@
       "message": "why is that any reason to remove an APN?\n\nDo they themselves still advertise this?",
       "revId": "3d4200a3f32216d7ca2b6d9d65f7f9effe91c853",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffb768ca_dde59576",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32181
+      },
+      "writtenOn": "2026-02-22T16:23:25Z",
+      "side": 1,
+      "message": "After 2341ff231e4ffae354f9895c988a548f01288c85, China Unicom default APN was incorrectly set to 3gwap, resulting in actual speeds of only 50KB during network speed test.\n\nI checked xiaomi stock, and they\u0027ve removed it as well, so it\u0027s fine.",
+      "parentUuid": "84c7a025_aca49682",
+      "revId": "3d4200a3f32216d7ca2b6d9d65f7f9effe91c853",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
