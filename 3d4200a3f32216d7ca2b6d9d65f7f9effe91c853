@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84c7a025_aca49682",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-02-22T15:53:36Z",
+      "side": 1,
+      "message": "why is that any reason to remove an APN?\n\nDo they themselves still advertise this?",
+      "revId": "3d4200a3f32216d7ca2b6d9d65f7f9effe91c853",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
