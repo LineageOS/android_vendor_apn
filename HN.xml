@@ -7,6 +7,17 @@
 <apns version="8">
     <apn
         mcc="708"
+        mnc="001"
+        carrier="INTERNET CLARO HN"
+        apn="internet.ideasclaro"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="708"
         mnc="02"
         carrier="INTERNET TIGO HN"
         apn="internet.tigo.hn"
