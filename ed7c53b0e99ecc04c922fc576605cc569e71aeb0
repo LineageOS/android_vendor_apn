@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf0f9c76_be2d847c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-07T14:54:29Z",
+      "side": 1,
+      "message": "sorry for late review I forgot about this, but I tested it on koodo (a Telus MVNO) and VoLTE still works",
+      "revId": "ed7c53b0e99ecc04c922fc576605cc569e71aeb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
