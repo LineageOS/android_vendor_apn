@@ -1819,6 +1819,15 @@
     <apn
         mcc="404"
         mnc="58"
+        carrier="BSNL IMS"
+        apn="bsnlnet"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="404"
+        mnc="58"
         carrier="BSNL MMS"
         apn="mmssouth.cellone.in"
         mmsc="http://10.7.236.11:8514"
@@ -1833,6 +1842,8 @@
         mnc="58"
         carrier="BSNL NET"
         apn="bsnlnet"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
         type="default,supl"
     />
     <apn
