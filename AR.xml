@@ -7,27 +7,6 @@
 <apns version="8">
     <apn
         mcc="722"
-        mnc="007"
-        carrier="Movistar AG"
-        apn="internet.unifon"
-        password="password"
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="722"
-        mnc="007"
-        carrier="Movistar AG MMS"
-        apn="mms.gprs.unifon.com.ar"
-        mmsc="http://mms.tmovil.cl/"
-        mmsport="9201"
-        mmsproxy="200.068.032.239"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="722"
         mnc="01"
         carrier="QUAM"
         apn="internet.movil"
@@ -51,27 +30,53 @@
     <apn
         mcc="722"
         mnc="07"
+        carrier="Movistar IMS"
+        apn="ims"
+        carrier_id="1337"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="722"
+        mnc="07"
+        carrier="Movistar INTERNET"
+        apn="wap.gprs.unifon.com.ar"
+        authtype="1"
+        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        carrier_id="1337"
+        password="wap"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,xcap"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="07"
         carrier="Movistar MMS"
         apn="mms.gprs.unifon.com.ar"
         authtype="1"
+        carrier_id="1337"
         mmsc="http://mms.movistar.com.ar"
         mmsport="8080"
         mmsproxy="200.68.32.239"
         password="mms"
-        port=""
-        proxy=""
         type="mms"
         user="mms"
     />
     <apn
         mcc="722"
         mnc="07"
-        carrier="Movistar WAP"
+        carrier="Movistar XCAP(wifi)"
         apn="wap.gprs.unifon.com.ar"
         authtype="1"
-        mmsc=""
+        bearer_bitmask="18"
+        carrier_id="1337"
         password="wap"
-        type="default,supl"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
         user="wap"
     />
     <apn
