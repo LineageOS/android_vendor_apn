@@ -16,6 +16,24 @@
       "message": "This was originally submitted to https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/413143 . I resubmitted it since the repo has been moved.",
       "revId": "12168833072c0ca695117806b2a3273b6f68b4b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a02b263_fc70193a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36830
+      },
+      "writtenOn": "2026-03-24T01:22:29Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "7809ca6a_aee46294",
+      "revId": "12168833072c0ca695117806b2a3273b6f68b4b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
