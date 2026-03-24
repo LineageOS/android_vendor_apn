@@ -16,6 +16,24 @@
       "message": "fixed a couple mistakes and updated from BP4A.260205.001 carriersettings.\n\nreview \u0026 test, and leave cr/v vote",
       "revId": "e83b6e9fc42dbf34bc901304d3dd6890b6c5de20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06a5324a_442719fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36830
+      },
+      "writtenOn": "2026-03-24T03:14:06Z",
+      "side": 1,
+      "message": "I don\u0027t have access to that network. An earlier version of this patch has been carried by the Ubuntu Touch folks since June. Do you need me to ask around for someone who is using this to test this?\n\nhttps://ubports.com/blog/ubports-news-1/ubuntu-touch-ota-9-focal-release-3962",
+      "parentUuid": "6a2bf6de_96e7c050",
+      "revId": "e83b6e9fc42dbf34bc901304d3dd6890b6c5de20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
