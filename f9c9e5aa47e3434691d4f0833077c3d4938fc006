@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab59044e_37954304",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-25T19:29:35Z",
+      "side": 1,
+      "message": "Well... after I had a user ask about Movistar and another ask about Kivstar APNs... both seem to be unavailable to test lol.. so I guess let these marinate on gerrit until someone else asks about it???",
+      "revId": "f9c9e5aa47e3434691d4f0833077c3d4938fc006",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
