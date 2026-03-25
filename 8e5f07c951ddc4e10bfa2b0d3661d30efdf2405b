@@ -16,6 +16,24 @@
       "message": "I chose Motorola marvel (edge 70 fusion) as it has IMS as protocol IPV6 only, whereas blazer has it as IPV4V6, so I believe marvel\u0027s APN configs are newer\n\nhttps://dumps.tadiphone.dev/dumps/motorola/marvel/-/blob/user-16-WWE36V.56-32-ST3.2-390dea-release-keys/product/etc/apns-conf.xml?ref_type\u003dheads#L3685\n\nThe only thing I\u0027m unsure of, is should I nuke the user_hidden and user_ediable flags or no?",
       "revId": "8e5f07c951ddc4e10bfa2b0d3661d30efdf2405b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1258004d_ce583b1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-03-25T03:48:26Z",
+      "side": 1,
+      "message": "yeah, should.  \nit\u0027s even done here https://github.com/LineageOS/scripts/commit/1d258cc6",
+      "parentUuid": "e3c540ac_b9316398",
+      "revId": "8e5f07c951ddc4e10bfa2b0d3661d30efdf2405b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
