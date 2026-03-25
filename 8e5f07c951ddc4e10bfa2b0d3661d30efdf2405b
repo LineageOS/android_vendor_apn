@@ -34,6 +34,24 @@
       "parentUuid": "e3c540ac_b9316398",
       "revId": "8e5f07c951ddc4e10bfa2b0d3661d30efdf2405b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75265371_03dd26be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-25T19:29:25Z",
+      "side": 1,
+      "message": "Thanks, I nuked them",
+      "parentUuid": "1258004d_ce583b1a",
+      "revId": "8e5f07c951ddc4e10bfa2b0d3661d30efdf2405b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
