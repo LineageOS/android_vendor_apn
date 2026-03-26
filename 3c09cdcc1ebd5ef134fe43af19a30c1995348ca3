@@ -16,6 +16,24 @@
       "message": "Well... after I had a user ask about Movistar and another ask about Kivstar APNs... both seem to be unavailable to test lol.. so I guess let these marinate on gerrit until someone else asks about it???",
       "revId": "3c09cdcc1ebd5ef134fe43af19a30c1995348ca3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "326fea06_e1b18029",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-03-26T03:47:32Z",
+      "side": 1,
+      "message": "These were outdated, so as long as they match newish stock rom, i\u0027d say its good to merge. Maybe let it sit a few days.\n\nAlso, all of the other movistar apns in this file are outdated too, and most are no longer even in any stock rom, so i would remove them.  Up to you though.",
+      "parentUuid": "76a1b6a4_1ef72ed3",
+      "revId": "3c09cdcc1ebd5ef134fe43af19a30c1995348ca3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
