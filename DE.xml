@@ -368,7 +368,7 @@
         carrier_id="2536"
         mmsc="http://mms.1und1-mobilfunk.de/"
         mmsport="80"
-        mmsproxy="2a00:0fbc:2200:c999:0109:1f87:2:1"
+        mmsproxy="//[2a00:0fbc:2200:c999:0109:1f87:2:1]"
         protocol="IPV6"
         roaming_protocol="IPV6"
         type="mms"
