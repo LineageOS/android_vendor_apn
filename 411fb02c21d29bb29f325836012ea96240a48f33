@@ -16,6 +16,24 @@
       "message": "fixes compilation",
       "revId": "411fb02c21d29bb29f325836012ea96240a48f33",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9dd2435_8c208fe0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-03-28T12:18:40Z",
+      "side": 1,
+      "message": "already fixed https://review.lineageos.org/479180",
+      "parentUuid": "2e5361a3_7e0a09c5",
+      "revId": "411fb02c21d29bb29f325836012ea96240a48f33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
