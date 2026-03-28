@@ -16,6 +16,24 @@
       "message": "[  6% 55/822 8m2s remaining] //vendor/apn:apns-conf.xml xmllint-xsd\nFAILED: out/soong/.intermediates/vendor/apn/apns-conf.xml/android_arm64_armv8-2a-dotprod_kryo/apns-conf.xml-timestamp\nout/host/linux-x86/bin/xmllint --schema vendor/apn/apns-conf.xsd out/soong/.intermediates/vendor/apn/apns-conf/gen/apns-conf.xml \u003e /dev/null \u0026\u0026 touch -a out/soong/.inte\nrmediates/vendor/apn/apns-conf.xml/android_arm64_armv8-2a-dotprod_kryo/apns-conf.xml-timestamp\nout/soong/.intermediates/vendor/apn/apns-conf/gen/apns-conf.xml:727: Schemas validity error : Element \u0027apn\u0027, attribute \u0027mmsproxy\u0027: \u00272a00:0fbc:2200:c999:0109:1f87:2:1\u0027 i\ns not a valid value of the atomic type \u0027xs:anyURI\u0027.\nout/soong/.intermediates/vendor/apn/apns-conf/gen/apns-conf.xml fails to validate\n17:05:46 ninja failed with: exit status 1\nThere were 2 actions that completed after the action that failed. See verbose.log.gz for their output.\n\n#### failed to build some targets (03:56 (mm:ss)) ####",
       "revId": "9e7da77dbeef323fd2c1d0673e9fb9c322057abb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe9c3e85_124ef933",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-28T16:42:29Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "0bd22cae_c899ea72",
+      "revId": "9e7da77dbeef323fd2c1d0673e9fb9c322057abb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
