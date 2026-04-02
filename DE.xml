@@ -386,6 +386,16 @@
     />
     <apn
         mcc="262"
+        mnc="23"
+        carrier="sim.de"
+        apn="internet"
+        authtype="1"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="262"
         mnc="42"
         carrier="Truphone"
         apn="truphone.com"
