@@ -405,4 +405,16 @@
         type="default,supl"
         user="lmde"
     />
+    <apn
+        mcc="262"
+        mnc="23"
+        carrier="sim.de"
+        apn="internet"
+        authtype="1"
+        password=""
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+        user=""
+    />
 </apns>
