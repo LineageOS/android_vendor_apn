@@ -16,6 +16,24 @@
       "message": "It\u0027s a pretty massive change, but that\u0027s what I got extracting it\n\nhttps://github.com/ThEMarD/blazer_apn/blob/main/apns-conf.xml\n\nI checked Motorola vegas, it has a lot less entries (vegas 142 vs blazer\u0027s 286) but I think blazer\u0027s is more up to date?",
       "revId": "b01cc9b1470e7f4f1b8ded3332947e31f2593fc0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f963a8e_bf330b9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-04-11T16:16:27Z",
+      "side": 1,
+      "message": "vegas apn\nhttps://github.com/ThEMarD/vegas_apn/blob/main/apns-conf.xml\n\nSo I dunno lol... there\u0027s probably also mcc\u003d310 mnc\u003d240 that also needs an update too, but the rtwo user with connection issues and his carrier is Tracfone, is with mnc\u003d260, so that\u0027s the one I can at least get tested",
+      "parentUuid": "27f50a81_5281340e",
+      "revId": "b01cc9b1470e7f4f1b8ded3332947e31f2593fc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
