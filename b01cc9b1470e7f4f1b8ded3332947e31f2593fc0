@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27f50a81_5281340e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-04-11T16:14:25Z",
+      "side": 1,
+      "message": "It\u0027s a pretty massive change, but that\u0027s what I got extracting it\n\nhttps://github.com/ThEMarD/blazer_apn/blob/main/apns-conf.xml\n\nI checked Motorola vegas, it has a lot less entries (vegas 142 vs blazer\u0027s 286) but I think blazer\u0027s is more up to date?",
+      "revId": "b01cc9b1470e7f4f1b8ded3332947e31f2593fc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
