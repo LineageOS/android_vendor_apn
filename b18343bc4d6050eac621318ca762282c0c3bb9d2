@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a79f040_fb137ec6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-04-11T16:25:22Z",
+      "side": 1,
+      "message": "https://github.com/ThEMarD/blazer_apn/blob/main/apns-conf.xml",
+      "revId": "b18343bc4d6050eac621318ca762282c0c3bb9d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
