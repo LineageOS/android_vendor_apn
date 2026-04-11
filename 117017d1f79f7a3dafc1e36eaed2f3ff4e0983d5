@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ef17d0b_ba4f1f99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-04-11T16:20:17Z",
+      "side": 1,
+      "message": "I was searching for mcc\u003d310 mnc\u003d260 and noticed that GU and US had the exact same entries... went to diff the full xml files and yep, GU is US, but missing a lot of entries",
+      "revId": "117017d1f79f7a3dafc1e36eaed2f3ff4e0983d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
