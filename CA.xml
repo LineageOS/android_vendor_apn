@@ -1028,17 +1028,6 @@
     <apn
         mcc="302"
         mnc="490"
-        carrier="Freedom Mobile SOS"
-        apn="e911.mobilefrdm.ca"
-        carrier_id="1895"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="emergency"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="490"
         carrier="Freedom Mobile XCAP"
         apn="xcap.freedommobile.ca"
         bearer_bitmask="14|18"
