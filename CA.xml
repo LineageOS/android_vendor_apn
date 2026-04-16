@@ -70,6 +70,7 @@
         mnc="150"
         carrier="Cogeco IMS"
         apn="ims"
+        bearer_bitmask="14|20"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
@@ -85,15 +86,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="mms"
-    />
-    <apn
-        mcc="302"
-        mnc="150"
-        carrier="Cogeco SOS"
-        apn="sos"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="emergency"
     />
     <apn
         mcc="302"
@@ -109,6 +101,7 @@
         mnc="151"
         carrier="Cogeco IMS"
         apn="ims"
+        bearer_bitmask="14|20"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
@@ -124,15 +117,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="mms"
-    />
-    <apn
-        mcc="302"
-        mnc="151"
-        carrier="Cogeco SOS"
-        apn="sos"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="emergency"
     />
     <apn
         mcc="302"
