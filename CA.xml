@@ -7,57 +7,6 @@
 <apns version="8">
     <apn
         mcc="302"
-        mnc="130"
-        carrier="Xplore IMS"
-        apn="ims"
-        carrier_id="2435"
-        mtu="1430"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_editable="0"
-    />
-    <apn
-        mcc="302"
-        mnc="130"
-        carrier="Xplore Mobility"
-        apn="internet.xploremobile.com"
-        carrier_id="2435"
-        mmsc="http://mmsc.xploremobile.com"
-        mmsport="80"
-        mtu="1430"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,mms,dun"
-        user_editable="0"
-    />
-    <apn
-        mcc="302"
-        mnc="130"
-        carrier="Xplore SOS"
-        apn="sos"
-        carrier_id="2435"
-        mtu="1430"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="emergency"
-        user_editable="0"
-        user_visible="0"
-    />
-    <apn
-        mcc="302"
-        mnc="130"
-        carrier="Xplore XCAP"
-        apn="xcap.xploremobile.com"
-        carrier_id="2435"
-        mtu="1430"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="xcap"
-        user_editable="0"
-    />
-    <apn
-        mcc="302"
         mnc="150"
         carrier="Cogeco"
         apn="data.cogeco"
