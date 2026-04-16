@@ -131,8 +131,7 @@
         mvno_match_data="4B4F"
         mvno_type="gid"
         protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="default,mms,supl,ia"
+        type="default,dun,ia,mms"
         user_editable="false"
     />
     <apn
@@ -390,8 +389,7 @@
         mvno_match_data="4B4F"
         mvno_type="gid"
         protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="default,mms,supl,ia"
+        type="default,dun,ia,mms"
         user_editable="false"
     />
     <apn
