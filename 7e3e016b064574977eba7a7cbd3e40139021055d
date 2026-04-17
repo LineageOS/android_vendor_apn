@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcd9b6d9_c1ac1835",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2026-04-17T00:04:29Z",
+      "side": 1,
+      "message": "Also removed 302151 (see https://cnac.ca/data/MNC_Codes.htm).",
+      "revId": "7e3e016b064574977eba7a7cbd3e40139021055d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
