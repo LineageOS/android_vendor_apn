@@ -79,6 +79,16 @@
         type="default,supl"
     />
     <apn
+        carrier="Grameenphone IMS"
+        mcc="470"
+        mnc="01"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+    />
+    <apn
         mcc="470"
         mnc="02"
         carrier="Robi"
@@ -103,6 +113,16 @@
         port="9208"
         proxy="10.128.1.2"
         type="default,supl"
+    />
+    <apn
+        carrier="Robi IMS"
+        mcc="470"
+        mnc="02"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
     />
     <apn
         mcc="470"
@@ -131,6 +151,16 @@
         type="default,supl"
     />
     <apn
+        carrier="Banglalink IMS"
+        mcc="470"
+        mnc="03"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false" 
+    />
+    <apn
         mcc="470"
         mnc="04"
         carrier="Tele Talk"
@@ -145,6 +175,16 @@
         port="9201"
         proxy="192.168.145.101"
         type="default,supl"
+    />
+    <apn 
+        carrier="Tele Talk IMS"
+        mcc="470"
+        mnc="04"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
     />
     <apn
         mcc="470"
@@ -171,6 +211,16 @@
         port="8080"
         proxy="10.6.0.2"
         type="default,supl"
+    />
+    <apn 
+        carrier="Airtel IMS"
+        mcc="470"
+        mnc="07"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
     />
     <apn
         mcc="470"
