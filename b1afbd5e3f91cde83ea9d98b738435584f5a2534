@@ -16,6 +16,24 @@
       "message": "since device/sample/etc/apns-full-conf.xml had identical apns for both 240 and 260 except for mvno_match_*, i did the same here, can you confirm this still works properly?",
       "revId": "b1afbd5e3f91cde83ea9d98b738435584f5a2534",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76f67dc6_036ece9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25047
+      },
+      "writtenOn": "2026-06-11T07:40:02Z",
+      "side": 1,
+      "message": "Is there a reason to change it this way? Seems to make more sense to change both to be dual-stack instead of limiting the new one to v6-only domestic and v4-only roaming. Surprised the other one defaults to this.",
+      "parentUuid": "c0d76f21_74a4d40c",
+      "revId": "b1afbd5e3f91cde83ea9d98b738435584f5a2534",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
