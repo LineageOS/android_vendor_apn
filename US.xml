@@ -896,8 +896,8 @@
         mvno_match_data="4276"
         mvno_type="gid"
         password="none"
-        protocol="IPV6"
-        roaming_protocol="IP"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
         server="*"
         user="none"
     />
@@ -1037,8 +1037,8 @@
         mvno_match_data="31026097"
         mvno_type="imsi"
         password="none"
-        protocol="IPV6"
-        roaming_protocol="IP"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
         server="*"
         user="none"
     />
