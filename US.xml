@@ -879,6 +879,31 @@
     <apn
         mcc="310"
         mnc="240"
+        carrier="Project Fi - T"
+        apn="h2g2"
+        mvno_match_data="4276"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ia"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
+        carrier="Project Fi - T"
+        apn="h2g2"
+        mmsc="http://mmsc1.g-mms.com/mms/wapenc"
+        mvno_match_data="4276"
+        mvno_type="gid"
+        password="none"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        server="*"
+        user="none"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
         carrier="Ting Data"
         apn="wireless.dish.com"
         carrier_id="2523"
