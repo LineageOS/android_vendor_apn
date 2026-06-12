@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83a22b68_1757816c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25047
+      },
+      "writtenOn": "2026-06-12T09:05:58Z",
+      "side": 1,
+      "message": "So despite how I tested/validated this originally, apparently stock OP15 does dual stack normally and _doesn\u0027t_ specify the roaming profile, so it just uses the default ip implicitly when roaming (and apparently that\u0027s the norm for Fi).",
+      "revId": "c0a70ee55c9c5a6b3f9b60b1f5df0833fe7c0cf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
