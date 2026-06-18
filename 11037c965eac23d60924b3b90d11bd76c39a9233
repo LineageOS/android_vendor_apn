@@ -67,6 +67,42 @@
       "message": "whoops, dude has 2 accounts: @hackershohag@outlook.com",
       "revId": "11037c965eac23d60924b3b90d11bd76c39a9233",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "715748da_6a18aa22",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37028
+      },
+      "writtenOn": "2026-06-18T21:10:41Z",
+      "side": 1,
+      "message": "I am not sure how can I get the verified votes? Also if possible tell me the way.",
+      "parentUuid": "3d1ca439_5b4cb360",
+      "revId": "11037c965eac23d60924b3b90d11bd76c39a9233",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ecacb1c_e9408bb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37028
+      },
+      "writtenOn": "2026-06-18T21:10:41Z",
+      "side": 1,
+      "message": "I am so sorry that I lot access to this account, somehow unlinked the google account, is there a way that I could get it back?",
+      "parentUuid": "6ce3ae73_56de2ca8",
+      "revId": "11037c965eac23d60924b3b90d11bd76c39a9233",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
