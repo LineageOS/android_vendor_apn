@@ -431,11 +431,13 @@
         mcc="204"
         mnc="08"
         carrier="Youfone Internet"
-        apn="portalmmm.nl"
+        apn="internet"
         password=""
         port=""
+        protocol="IPV4V6"
         proxy=""
-        type="default"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
         user=""
     />
     <apn
