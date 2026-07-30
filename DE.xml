@@ -98,6 +98,7 @@
         mvno_type="spn"
         password="telekom"
         protocol="IP"
+        type="mms,default,supl,ia"
         user="telekom"
     />
     <apn
@@ -202,6 +203,7 @@
         mmsproxy="82.113.100.41"
         mvno_match_data="Alice"
         mvno_type="spn"
+        type="default,supl,mms"
     />
     <apn
         mcc="262"

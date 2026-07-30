@@ -47,6 +47,7 @@
         password=""
         port=""
         proxy=""
+        type="supl"
         user=""
     />
     <apn
@@ -57,6 +58,7 @@
         mmsport="8080"
         mmsproxy="172.16.220.44"
         password=""
+        type="mms"
         user=""
     />
 </apns>

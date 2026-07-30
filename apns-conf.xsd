@@ -118,7 +118,7 @@
         <xs:attribute name="mmsproxy" type="xs:string" />
         <xs:attribute name="mmsport" type="xs:string" />
         <xs:attribute name="mmsc" type="xs:anyURI" />
-        <xs:attribute name="type" type="apnType" />
+        <xs:attribute name="type" type="apnType" use="required" />
         <xs:attribute name="protocol" type="protocol" />
         <xs:attribute name="roaming_protocol" type="protocol" />
         <xs:attribute name="authtype" type="authtype" />
