@@ -1919,16 +1919,6 @@
     <apn
         mcc="310"
         mnc="410"
-        carrier="ATT Activation"
-        apn="lwaactivate"
-        mmsc=""
-        password=""
-        protocol="IP"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="410"
         carrier="ATT Broadband"
         apn="broadband"
         mmsc=""
