@@ -537,8 +537,8 @@
     <apn
         mcc="250"
         mnc="62"
-        carrier="Tinkoff Mobile"
-        apn="m.tinkoff"
+        carrier="Т-Мобайл"
+        apn="tt"
         authtype="1"
         mmsc=""
         password=""
