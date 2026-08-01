@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "999974c2_ec8f4848",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30259
+      },
+      "writtenOn": "2026-08-01T12:14:42Z",
+      "side": 1,
+      "message": "to clarify - there was a rebrand from \"Tinkoff Mobile\" to \"T-Mobile\". APN also has changed.",
+      "revId": "b28770c249e74502e863a8010f1700cdf9666899",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
