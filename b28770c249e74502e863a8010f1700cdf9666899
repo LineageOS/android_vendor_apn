@@ -16,6 +16,29 @@
       "message": "to clarify - there was a rebrand from \"Tinkoff Mobile\" to \"T-Mobile\". APN also has changed.",
       "revId": "b28770c249e74502e863a8010f1700cdf9666899",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13cd3e46_04152db8",
+        "filename": "RU.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 540,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2026-08-02T15:58:03Z",
+      "side": 1,
+      "message": "English name, not Russian - T-Mobile\n\nhttps://stats.lineageos.org/filter?carrier\u003dT-Mobile",
+      "range": {
+        "startLine": 540,
+        "startChar": 17,
+        "endLine": 540,
+        "endChar": 25
+      },
+      "revId": "b28770c249e74502e863a8010f1700cdf9666899",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
