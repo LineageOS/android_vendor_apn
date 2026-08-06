@@ -39,6 +39,30 @@
       },
       "revId": "b28770c249e74502e863a8010f1700cdf9666899",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f356d6d7_08d0e433",
+        "filename": "RU.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 540,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-06T22:19:11Z",
+      "side": 1,
+      "message": "I mean, if that\u0027s the name locally, there\u0027s nothing wrong with it.",
+      "parentUuid": "13cd3e46_04152db8",
+      "range": {
+        "startLine": 540,
+        "startChar": 17,
+        "endLine": 540,
+        "endChar": 25
+      },
+      "revId": "b28770c249e74502e863a8010f1700cdf9666899",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
