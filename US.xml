@@ -901,6 +901,7 @@
         roaming_protocol="IPV4V6"
         server="*"
         user="none"
+        type="default,supl,mms"
     />
     <apn
         mcc="310"
