@@ -900,6 +900,7 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         server="*"
+        type="default,supl,mms"
         user="none"
     />
     <apn
