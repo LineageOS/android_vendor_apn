@@ -979,10 +979,13 @@
     <apn
         mcc="208"
         mnc="10"
-        carrier="SFR WEB"
-        apn="websfr"
+        carrier="SFR webphone"
+        apn="sl2sfr"
         password=""
-        type="default,dun"
+        port="8080"
+        proxy="10.151.0.1"
+        mmsc="http://mms1"
+        type="default,dun,hipri,mms"
         user=""
     />
     <apn
