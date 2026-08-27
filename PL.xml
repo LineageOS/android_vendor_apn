@@ -98,27 +98,6 @@
     <apn
         mcc="260"
         mnc="02"
-        carrier="Mobilking"
-        apn="wapMOBILKING"
-        password="mobilking"
-        type="default,supl"
-        user="mobilking"
-    />
-    <apn
-        mcc="260"
-        mnc="02"
-        carrier="Mobilking MMS"
-        apn="mmsMOBILKING"
-        mmsc="http://mms.mobilking.pl/servlets/mms"
-        mmsport="8080"
-        mmsproxy="213.158.194.226"
-        password="mobilking"
-        type="mms"
-        user="mobilking"
-    />
-    <apn
-        mcc="260"
-        mnc="02"
         carrier="T-Mobile.pl INTERNET"
         apn="internet"
         mmsc=""
@@ -220,27 +199,6 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="260"
-        mnc="03"
-        carrier="MNI"
-        apn="mni.internet"
-        password="mni.internet"
-        type="default,supl"
-        user="mni.internet"
-    />
-    <apn
-        mcc="260"
-        mnc="03"
-        carrier="MNI MMS"
-        apn="mni.mms"
-        mmsc="http://mms.mni.pl/"
-        mmsport="8080"
-        mmsproxy="192.168.006.135"
-        password="mni.mms"
-        type="mms"
-        user="mni.mms"
     />
     <apn
         mcc="260"
