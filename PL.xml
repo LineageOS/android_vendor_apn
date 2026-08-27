@@ -145,27 +145,6 @@
     <apn
         mcc="260"
         mnc="03"
-        carrier="ASTER"
-        apn="aster.internet"
-        password="internet"
-        type="default,supl"
-        user="internet"
-    />
-    <apn
-        mcc="260"
-        mnc="03"
-        carrier="ASTER MMS"
-        apn="aster.mms"
-        mmsc="http://mms.aster.pl"
-        mmsport="8080"
-        mmsproxy="192.168.006.138"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="260"
-        mnc="03"
         carrier="Internet Orange"
         apn="internet"
         authtype="3"
