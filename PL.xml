@@ -50,23 +50,6 @@
     />
     <apn
         mcc="260"
-        mnc="01"
-        carrier="mBank mobile"
-        apn="www.mobile.pl"
-        type="default,supl"
-    />
-    <apn
-        mcc="260"
-        mnc="01"
-        carrier="mBank mobile MMS"
-        apn="mms.mobile.pl"
-        mmsc="http://mms.mobile.pl:8080"
-        mmsport="8080"
-        mmsproxy="212.2.96.16"
-        type="mms"
-    />
-    <apn
-        mcc="260"
         mnc="02"
         carrier="Era Internet"
         apn="erainternet"
