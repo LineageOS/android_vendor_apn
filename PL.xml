@@ -51,17 +51,6 @@
     <apn
         mcc="260"
         mnc="01"
-        carrier="PlusWAP"
-        apn="wap"
-        mmsport="8080"
-        password="plusgsm"
-        proxy="212.2.96.16"
-        type="default,supl"
-        user="plusgsm"
-    />
-    <apn
-        mcc="260"
-        mnc="01"
         carrier="mBank mobile"
         apn="www.mobile.pl"
         type="default,supl"
