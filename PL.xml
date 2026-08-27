@@ -51,56 +51,6 @@
     <apn
         mcc="260"
         mnc="02"
-        carrier="Era Internet"
-        apn="erainternet"
-        authtype="1"
-        mmsc=""
-        password="erainternet"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="erainternet"
-    />
-    <apn
-        mcc="260"
-        mnc="02"
-        carrier="Era Internet"
-        apn="erainternet"
-        password="erainternet"
-        type="default,supl"
-        user="erainternet"
-    />
-    <apn
-        mcc="260"
-        mnc="02"
-        carrier="Era MMS"
-        apn="eramms"
-        authtype="1"
-        mmsc="http://mms.era.pl/servlets/mms"
-        mmsport="8080"
-        mmsproxy="213.158.194.226"
-        password="eramms"
-        port=""
-        proxy=""
-        type="mms"
-        user="eramms"
-    />
-    <apn
-        mcc="260"
-        mnc="02"
-        carrier="Era MMS"
-        apn="eramms"
-        mmsc="http://mms.era.pl/servlets/mms"
-        mmsport="8080"
-        mmsproxy="213.158.194.226"
-        password="eramms"
-        server="*"
-        type="mms"
-        user="eramms"
-    />
-    <apn
-        mcc="260"
-        mnc="02"
         carrier="Heyah"
         apn="heyah.pl"
         password="heyah"
@@ -191,15 +141,6 @@
         proxy=""
         type="mms"
         user=""
-    />
-    <apn
-        mcc="260"
-        mnc="02"
-        carrier="Tak-Tak"
-        apn="erainternettt"
-        password="erainternet"
-        type="default,supl"
-        user="erainternet"
     />
     <apn
         mcc="260"
