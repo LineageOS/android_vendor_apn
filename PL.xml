@@ -8,23 +8,6 @@
     <apn
         mcc="260"
         mnc="01"
-        carrier="Carrefour Mova"
-        apn="www.mova.pl"
-        type="default,supl"
-    />
-    <apn
-        mcc="260"
-        mnc="01"
-        carrier="Carrefour Mova MMS"
-        apn="mms.mova.pl"
-        mmsc="http://mms.mova.pl:8002/"
-        mmsport="8080"
-        mmsproxy="212.2.96.16"
-        type="mms"
-    />
-    <apn
-        mcc="260"
-        mnc="01"
         carrier="FM Group Mobile"
         apn="www.fmgmobie.pl"
         type="default,supl"
