@@ -503,4 +503,57 @@
         protocol="IPV4V6"
         type="default,ia,mms,supl,hipri,fota,cbs"
     />
+    <apn
+        mcc="440"
+        mnc="54"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_editable="0"
+        user_visible="false"
+    />
+    <apn
+        mcc="440"
+        mnc="54"
+        carrier="UQ mobile"
+        apn="uqmobile.jp"
+        authtype="2"
+        mmsc="http://mms.ezweb.ne.jp/MMS"
+        mmsport="80"
+        password="uq"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,mms,supl,hipri"
+        user="uq@uqmobile.jp"
+    />
+    <apn
+        mcc="440"
+        mnc="54"
+        carrier="au(5G NET for DATA)"
+        apn="au5g.au-net.ne.jp"
+        authtype="2"
+        password="au"
+        type="default,ia,mms,supl,hipri,fota,cbs"
+        user="user@au5g.au-net.ne.jp"
+    />
+    <apn
+        mcc="440"
+        mnc="54"
+        carrier="au(5G NET)"
+        apn="uad5gn.au-net.ne.jp"
+        authtype="2"
+        password="au"
+        type="default,ia,mms,supl,hipri,fota,cbs"
+        user="au@uad5gn.au-net.ne.jp"
+    />
+    <apn
+        mcc="440"
+        mnc="54"
+        carrier="povo2.0"
+        apn="povo.jp"
+        protocol="IPV4V6"
+        type="default,ia,mms,supl,hipri,fota,cbs"
+    />
 </apns>
