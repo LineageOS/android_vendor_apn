@@ -25,23 +25,6 @@
     <apn
         mcc="260"
         mnc="01"
-        carrier="GaduAIR"
-        apn="internet.gadu-gadu.pl"
-        type="default,supl"
-    />
-    <apn
-        mcc="260"
-        mnc="01"
-        carrier="GaduAIR MMS"
-        apn="mms.gadu-gadu.pl"
-        mmsc="http://mms.gadu-gadu.pl:8002/"
-        mmsport="8080"
-        mmsproxy="212.2.96.16"
-        type="mms"
-    />
-    <apn
-        mcc="260"
-        mnc="01"
         carrier="Plus INTERNET"
         apn="plus"
         mmsc=""
