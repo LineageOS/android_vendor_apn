@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e647c3a6_0833ef81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-08-28T15:23:28Z",
+      "side": 1,
+      "message": "did you use lineage\u0027s carriersettings extractor? it excludes user_editable.\nhttps://github.com/LineageOS/scripts/tree/main/carriersettings-extractor",
+      "revId": "f58ac76cfc3b970593b8abde0d9376bb1affdca9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
