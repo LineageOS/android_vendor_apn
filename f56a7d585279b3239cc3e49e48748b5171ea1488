@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "850931fe_91c2f3f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-09-03T03:31:14Z",
+      "side": 1,
+      "message": "Needs a reputable source like aosp, stock rom, carrier site.",
+      "revId": "f56a7d585279b3239cc3e49e48748b5171ea1488",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
