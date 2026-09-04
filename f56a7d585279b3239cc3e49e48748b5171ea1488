@@ -34,6 +34,24 @@
       "parentUuid": "850931fe_91c2f3f2",
       "revId": "f56a7d585279b3239cc3e49e48748b5171ea1488",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10984571_cb05704c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37870
+      },
+      "writtenOn": "2026-09-04T09:19:43Z",
+      "side": 1,
+      "message": "Hi, there is no official source from the Deutsche Telekom. They only provide ipv4 roaming in there official apn settings.\nWe can maybe just close this one here and wait, until \"Deutsche Telekom\" add ipv6 to the official roaming apn config.",
+      "parentUuid": "850931fe_91c2f3f2",
+      "revId": "f56a7d585279b3239cc3e49e48748b5171ea1488",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
