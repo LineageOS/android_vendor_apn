@@ -329,7 +329,7 @@
         mmsproxy="10.10.1.100"
         port="9401"
         proxy="10.10.1.100"
-        type="default,supl,mms"
+        type="mms"
     />
     <apn
         mcc="404"
