@@ -303,7 +303,7 @@
         password=""
         port=""
         proxy=""
-        type="*"
+        type="default,supl,mms"
         user=""
     />
     <apn
@@ -317,7 +317,7 @@
         password=""
         port=""
         proxy=""
-        type="*"
+        type="default,supl,mms"
         user=""
     />
     <apn
@@ -342,6 +342,16 @@
     <apn
         mcc="204"
         mnc="08"
+        carrier="KPN IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="204"
+        mnc="08"
         carrier="KPN Mobiel Internet"
         apn="portalmmm.nl"
         mmsc="http://mp.mobiel.kpn/mmsc"
@@ -350,7 +360,7 @@
         password=""
         port=""
         proxy=""
-        type="*"
+        type="default,supl,mms"
         user=""
     />
     <apn
