@@ -906,6 +906,35 @@
     <apn
         mcc="310"
         mnc="240"
+        carrier="T-Mobile US 240 DUN"
+        apn="pcweb.tmobile.com"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="dun"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
+        carrier="T-Mobile US 240 LTE"
+        apn=""
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ia"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
+        carrier="T-Mobile US 240 LTE"
+        apn="fast.t-mobile.com"
+        mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+        mtu="1440"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="default,supl,mms,xcap"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
         carrier="Ting Data"
         apn="wireless.dish.com"
         carrier_id="2523"
