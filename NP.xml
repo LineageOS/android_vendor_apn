@@ -14,7 +14,7 @@
         password=""
         port="8000"
         proxy="192.80.7.133"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
