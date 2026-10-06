@@ -334,4 +334,11 @@
         type="default,supl,mms"
         user=""
     />
+    <apn
+        mcc="272"
+        mnc="27"
+        carrier="Lidl Connect IE"
+        apn="truphone.com"
+        type="default,supl"
+    />
 </apns>
