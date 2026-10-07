@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ec95d36_43931d82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 38201
+      },
+      "writtenOn": "2026-10-07T12:58:02Z",
+      "side": 1,
+      "message": "Tested the proposed NTC (429/01) APN set on a Redmi Note 10 Pro (sweet) with crDroid 12.12 and an active Nepal Telecom SIM.\n\nntnet was selected as the preferred APN after reconnecting mobile data. The network validated successfully, with no HTTP proxy configured. IPv4, DNS, HTTP and HTTPS all worked correctly. Mobile data also remained functional during an active voice call.\n\nI did not test MMS/IMS separately or the APNs for the other Nepal operators.",
+      "revId": "0d9bfd685d93ce3d809472d416510485a75fe89a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
