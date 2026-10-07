@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e41223b5_47e8345e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-10-07T05:50:10Z",
+      "side": 1,
+      "message": "These nepal apns needed an update so please use/test this change instead https://review.lineageos.org/506573",
+      "revId": "2dfcace66051dc49848a14f7effb0ff66e0fdb3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
