@@ -216,32 +216,6 @@
     />
     <apn
         mcc="425"
-        mnc="05"
-        carrier="Jawwal Internet"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="425"
-        mnc="05"
-        carrier="Jawwal MMS"
-        apn="mms"
-        mmsc="http://mms.jawwal.ps/servlets/mms"
-        mmsport="8080"
-        mmsproxy="213.244.118.129"
-        type="mms"
-    />
-    <apn
-        mcc="425"
-        mnc="05"
-        carrier="Jawwal WAP"
-        apn="wap"
-        port="8080"
-        proxy="213.244.118.129"
-        type="default,supl"
-    />
-    <apn
-        mcc="425"
         mnc="07"
         carrier="Hot Mobile"
         apn="net.hotm"
