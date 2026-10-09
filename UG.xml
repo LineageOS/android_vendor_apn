@@ -76,18 +76,6 @@
     />
     <apn
         mcc="641"
-        mnc="14"
-        carrier="Orange UG"
-        apn="orange.ug"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="641"
         mnc="22"
         carrier="Waridtel UG"
         apn="web.waridtel.co.ug"

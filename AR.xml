@@ -91,18 +91,6 @@
     <apn
         mcc="722"
         mnc="310"
-        carrier="CTI"
-        apn="internet.ctimovil.com.ar"
-        mmsc=""
-        password="guest"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="guest"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
         carrier="CTI MMS"
         apn="mms.ctimovil.com.ar"
         mmsc="http://mms.ctimovil.com.ar"

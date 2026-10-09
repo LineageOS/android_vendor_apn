@@ -8,42 +8,9 @@
     <apn
         mcc="338"
         mnc="05"
-        carrier="Digicel Antigua MMS"
-        apn="wap"
-        mmsc="http://mms.digicelgroup.com"
-        mmsport="8080"
-        mmsproxy="172.16.7.12"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="05"
         carrier="Digicel BVI MMS"
         apn="wap"
         mmsc="http://mmc.digiceljamaica.com/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.16.7.12"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="05"
-        carrier="Digicel BVI Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="05"
-        carrier="Digicel Cayman MMS"
-        apn="wap"
-        mmsc="http://mms.digicelgroup.com"
         mmsport="8080"
         mmsproxy="172.16.7.12"
         password=""
@@ -69,15 +36,6 @@
         mmsproxy="172.20.134.12"
         password=""
         type="mms"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="05"
-        carrier="Digicel Haiti Web"
-        apn="web"
-        password=""
-        type="default,supl"
         user=""
     />
     <apn
@@ -113,42 +71,9 @@
     <apn
         mcc="338"
         mnc="050"
-        carrier="Digicel ANTIGUA MMS"
-        apn="wap"
-        mmsc="http://mms.digicelgroup.com"
-        mmsport="8080"
-        mmsproxy="172.16.7.12"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="050"
         carrier="Digicel BVI MMS"
         apn="wap"
         mmsc="http://mmc.digiceljamaica.com/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.16.7.12"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="050"
-        carrier="Digicel BVI Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="050"
-        carrier="Digicel Cayman MMS"
-        apn="wap"
-        mmsc="http://mms.digicelgroup.com"
         mmsport="8080"
         mmsproxy="172.16.7.12"
         password=""
@@ -174,15 +99,6 @@
         mmsproxy="172.20.134.12"
         password=""
         type="mms"
-        user=""
-    />
-    <apn
-        mcc="338"
-        mnc="050"
-        carrier="Digicel Haiti Web"
-        apn="web"
-        password=""
-        type="default,supl"
         user=""
     />
     <apn

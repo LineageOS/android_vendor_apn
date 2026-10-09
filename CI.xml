@@ -8,17 +8,6 @@
     <apn
         mcc="612"
         mnc="03"
-        carrier="OWORLD"
-        apn="orangeciwap"
-        password="wap"
-        port="8080"
-        proxy="172.20.4.33"
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="612"
-        mnc="03"
         carrier="OWORLD CI"
         apn="orangeciwap"
         password="wap"
@@ -26,18 +15,6 @@
         proxy="172.20.4.33"
         type="default,supl"
         user="wap"
-    />
-    <apn
-        mcc="612"
-        mnc="03"
-        carrier="Omms"
-        apn="orangecimms"
-        mmsc="http://172.20.6.1/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.20.4.33"
-        password="mms"
-        type="mms"
-        user="mms"
     />
     <apn
         mcc="612"

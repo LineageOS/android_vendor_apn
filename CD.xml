@@ -13,16 +13,4 @@
         type="default,supl"
         user="vodalive"
     />
-    <apn
-        mcc="630"
-        mnc="01"
-        carrier="Vodacom CD"
-        apn="vodanet"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user="vodalive"
-    />
 </apns>

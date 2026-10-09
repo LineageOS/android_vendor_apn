@@ -68,18 +68,6 @@
     <apn
         mcc="218"
         mnc="03"
-        carrier="ERONET MI 50"
-        apn="web.eronet.ba"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="supl"
-        user=""
-    />
-    <apn
-        mcc="218"
-        mnc="03"
         carrier="ERONET MMS"
         apn="mms.eronet.ba"
         mmsc="http://mms.gprs.eronet.ba/mms/wapenc"

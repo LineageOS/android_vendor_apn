@@ -36,15 +36,6 @@
     <apn
         mcc="419"
         mnc="02"
-        carrier="Zain KW"
-        apn="pps"
-        password="pps"
-        type="default,supl"
-        user="pps"
-    />
-    <apn
-        mcc="419"
-        mnc="02"
         carrier="Zain KW MMS"
         apn="pps"
         mmsc="http://mms.zain"

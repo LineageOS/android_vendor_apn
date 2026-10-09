@@ -33,16 +33,6 @@
     <apn
         mcc="238"
         mnc="01"
-        carrier="Fullrate"
-        apn="internet"
-        authtype="3"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="01"
         carrier="Fullrate MMS"
         apn="mms"
         authtype="3"
@@ -134,16 +124,6 @@
         password=""
         port=""
         proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="01"
-        carrier="Telmore"
-        apn="internet"
-        authtype="3"
-        password=""
         type="default,supl"
         user=""
     />
@@ -331,20 +311,6 @@
         carrier="Onfone"
         apn="Internet"
         type="default,supl"
-    />
-    <apn
-        mcc="238"
-        mnc="02"
-        carrier="Onfone MMS"
-        apn="telenor"
-        mmsc="http://mms.telenor.dk"
-        mmsport="8080"
-        mmsproxy="212.88.64.8"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="238"

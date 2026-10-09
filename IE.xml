@@ -68,20 +68,6 @@
     <apn
         mcc="272"
         mnc="01"
-        carrier="Vodafone MMS"
-        apn="mms.vodafone.net"
-        mmsc="http://www.vodafone.ie/mms"
-        mmsport="80"
-        mmsproxy="10.24.59.200"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="272"
-        mnc="01"
         carrier="Vodafone WAP"
         apn="live.vodafone.com"
         mmsc=""

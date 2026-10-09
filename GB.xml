@@ -631,18 +631,6 @@
     <apn
         mcc="234"
         mnc="15"
-        carrier="Vodafone Internet(Post)"
-        apn="internet"
-        mmsc=""
-        password="web"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="web"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
         carrier="Vodafone Internet(Pre)"
         apn="pp.vodafone.co.uk"
         mmsc=""
@@ -657,20 +645,6 @@
         mnc="15"
         carrier="Vodafone MMS(Post)"
         apn="wap.vodafone.co.uk"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone MMS(Pre)"
-        apn="pp.vodafone.co.uk"
         mmsc="http://mms.vodafone.co.uk/servlets/mms"
         mmsport="8799"
         mmsproxy="212.183.137.12"
@@ -1650,18 +1624,6 @@
     <apn
         mcc="234"
         mnc="58"
-        carrier="Manx Internet(Post)"
-        apn="web.manxpronto.net"
-        mmsc=""
-        password="gprs"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="gprs"
-    />
-    <apn
-        mcc="234"
-        mnc="58"
         carrier="Manx Internet(Pre)"
         apn="web.prontogo.net"
         mmsc=""
@@ -1670,34 +1632,6 @@
         proxy="195.10.99.51"
         type="default,supl"
         user="webgo"
-    />
-    <apn
-        mcc="234"
-        mnc="58"
-        carrier="Manx MMS(Post)"
-        apn="mms.manxpronto.net"
-        mmsc="http://mms.manxpronto.net:8002"
-        mmsport="8080"
-        mmsproxy="195.10.99.46"
-        password="mms"
-        port=""
-        proxy=""
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="234"
-        mnc="58"
-        carrier="Manx MMS(Pre)"
-        apn="mms.prontogo.net"
-        mmsc="http://mms.manxpronto.net:8002"
-        mmsport="8080"
-        mmsproxy="195.10.99.41"
-        password="mmsgo"
-        port=""
-        proxy=""
-        type="mms"
-        user="mmsgo"
     />
     <apn
         mcc="234"

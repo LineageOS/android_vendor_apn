@@ -117,18 +117,6 @@
     <apn
         mcc="244"
         mnc="03"
-        carrier="Telia ISP GPRS"
-        apn="internet"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="244"
-        mnc="03"
         carrier="Telia MMS"
         apn="mms"
         mmsc="http://mmsc:8002"
@@ -223,34 +211,6 @@
         mcc="244"
         mnc="05"
         carrier="Elisa MMS"
-        apn="mms"
-        authtype="1"
-        mmsc="http://mms.elisa.fi"
-        mmsport="80"
-        mmsproxy="213.161.41.57"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="244"
-        mnc="05"
-        carrier="Saunalahti Internet"
-        apn="internet"
-        authtype="1"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="244"
-        mnc="05"
-        carrier="Saunalahti MMS"
         apn="mms"
         authtype="1"
         mmsc="http://mms.elisa.fi"
@@ -783,18 +743,6 @@
         port=""
         proxy=""
         type="mms"
-        user=""
-    />
-    <apn
-        mcc="244"
-        mnc="91"
-        carrier="Tele Finland Internet"
-        apn="internet"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
         user=""
     />
     <apn

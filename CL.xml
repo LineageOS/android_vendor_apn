@@ -95,18 +95,6 @@
     <apn
         mcc="730"
         mnc="03"
-        carrier="MMS CLARO"
-        apn="mms.clarochile.cl"
-        mmsc="http://mms.clarochile.cl"
-        mmsport="8080"
-        mmsproxy="172.23.200.200"
-        password="clarochile"
-        type="mms"
-        user="clarochile"
-    />
-    <apn
-        mcc="730"
-        mnc="03"
         carrier="MMS Claro"
         apn="mms.clarochile.cl"
         mmsc="http://mms.clarochile.cl"
@@ -231,14 +219,5 @@
         proxy=""
         type="default,supl"
         user="web"
-    />
-    <apn
-        mcc="730"
-        mnc="10"
-        carrier="WEB EPCS"
-        apn="imovil.entelpcs.cl"
-        password="entelpcs"
-        type="default,supl"
-        user="entelpcs"
     />
 </apns>

@@ -16,18 +16,6 @@
     />
     <apn
         mcc="360"
-        mnc="070"
-        carrier="Digicel VC"
-        apn="wap.digiceloecs.com"
-        mmsc=""
-        password="wap03oecs"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="wapoecs"
-    />
-    <apn
-        mcc="360"
         mnc="110"
         carrier="LIME Postpaid Internet"
         apn="internet"

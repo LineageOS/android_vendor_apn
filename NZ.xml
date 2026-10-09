@@ -10,15 +10,6 @@
         mnc="01"
         carrier="Vodafone NZ"
         apn="www.vodafone.net.nz"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="530"
-        mnc="01"
-        carrier="Vodafone NZ"
-        apn="www.vodafone.net.nz"
         type="default,supl"
     />
     <apn

@@ -943,18 +943,6 @@
         mnc="10"
         carrier="Spring data"
         apn="data.springmobil.se"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="240"
-        mnc="10"
-        carrier="Spring data"
-        apn="data.springmobil.se"
         type="default,supl"
     />
     <apn

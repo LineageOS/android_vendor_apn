@@ -82,20 +82,6 @@
     <apn
         mcc="206"
         mnc="01"
-        carrier="Scarlet MMS"
-        apn="event.proximus.be"
-        mmsc="http://mmsc.proximus.be/mms"
-        mmsport="8080"
-        mmsproxy="10.55.14.75"
-        password="mms"
-        port=""
-        proxy=""
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
         carrier="Telenet Intl Roam"
         apn="telenetwap.be"
         type="default,supl"
@@ -141,15 +127,6 @@
         proxy=""
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="206"
-        mnc="05"
-        carrier="Voo Mobile"
-        apn="telenetwap.be"
-        password=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="206"
@@ -249,34 +226,6 @@
         password="carrefour"
         type="mms"
         user="carrefour"
-    />
-    <apn
-        mcc="206"
-        mnc="20"
-        carrier="JIM Mobile Internet"
-        apn="gprs.base.be"
-        authtype="1"
-        mmsc=""
-        password="base"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="base"
-    />
-    <apn
-        mcc="206"
-        mnc="20"
-        carrier="JIM Mobile MMS"
-        apn="mms.base.be"
-        authtype="1"
-        mmsc="http://mmsc.base.be"
-        mmsport="8080"
-        mmsproxy="217.72.235.1"
-        password="base"
-        port=""
-        proxy=""
-        type="mms"
-        user="base"
     />
     <apn
         mcc="206"

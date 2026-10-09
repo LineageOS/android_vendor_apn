@@ -444,18 +444,6 @@
     <apn
         mcc="214"
         mnc="06"
-        carrier="INTERNET GPRS"
-        apn="airtelnet.es"
-        mmsc=""
-        password="vodafone"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="vodafone"
-    />
-    <apn
-        mcc="214"
-        mnc="06"
         carrier="Lebara Internet"
         apn="gprsmov.lebaramobile.es"
         mmsc=""

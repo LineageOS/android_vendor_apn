@@ -8,18 +8,6 @@
     <apn
         mcc="216"
         mnc="01"
-        carrier="Pannon"
-        apn="net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="01"
         carrier="Pannon MMS"
         apn="mms"
         mmsc="http://mmsc.pgsm.hu/"
@@ -51,18 +39,6 @@
         carrier="Telenor Net"
         apn="net"
         type="default,supl"
-    />
-    <apn
-        mcc="216"
-        mnc="01"
-        carrier="Telenor Net"
-        apn="net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="216"

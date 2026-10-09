@@ -138,16 +138,6 @@
     <apn
         mcc="334"
         mnc="050"
-        carrier="Unefon Internet"
-        apn="web.iusacellgsm.mx"
-        authtype="0"
-        password="iusacellgsm"
-        type="default,supl"
-        user="iusacellgsm"
-    />
-    <apn
-        mcc="334"
-        mnc="050"
         carrier="Unefon MMS"
         apn="mms.iusacellgsm.mx"
         mmsc="http://mms.iusacell3g.com/"

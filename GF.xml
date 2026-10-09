@@ -53,24 +53,6 @@
     />
     <apn
         mcc="340"
-        mnc="01"
-        carrier="Orange web"
-        apn="orangeweb"
-        password="orange"
-        type="default,supl"
-        user="orange"
-    />
-    <apn
-        mcc="340"
-        mnc="01"
-        carrier="Orangeweb"
-        apn="orangeweb"
-        password="orange"
-        type="default,supl"
-        user="orange"
-    />
-    <apn
-        mcc="340"
         mnc="02"
         carrier="Onlyplanet"
         apn="onlywap"
