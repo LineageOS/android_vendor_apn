@@ -400,35 +400,9 @@
     <apn
         mcc="310"
         mnc="090"
-        carrier="Edge MMS Prepay"
-        apn="ppmms"
-        mmsc="http://mms.edgemobile.net/mmsc"
-        mmsport="3128"
-        mmsproxy="12.108.12.13"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="090"
         carrier="Internet"
         apn="isp"
         type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="090"
-        carrier="Internet"
-        apn="isp"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="310"
@@ -484,20 +458,6 @@
     />
     <apn
         mcc="310"
-        mnc="090"
-        carrier="MMS"
-        apn="mms"
-        mmsc="http://mms.edgemobile.net/mmsc"
-        mmsport="3128"
-        mmsproxy="12.108.12.13"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="310"
         mnc="100"
         carrier="PLAT-OTA-MMS"
         apn="plateaumms"
@@ -516,18 +476,6 @@
         carrier="PLATWEB"
         apn="plateauweb"
         type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="100"
-        carrier="PLATWEB"
-        apn="plateauweb"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="310"
@@ -1236,18 +1184,6 @@
         roaming_protocol="IPV6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="Ting Data"
-        apn="wholesale"
-        carrier_id="2080"
-        mvno_match_data="6135"
-        mvno_type="gid"
-        protocol="IPV6"
-        roaming_protocol="IPV6"
-        type="default,fota,mms,supl,hipri,dun"
     />
     <apn
         mcc="310"

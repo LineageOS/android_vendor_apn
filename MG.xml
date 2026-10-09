@@ -77,17 +77,6 @@
     <apn
         mcc="646"
         mnc="02"
-        carrier="Orange World"
-        apn="orangeworld"
-        password="orange"
-        port="8080"
-        proxy="10.150.0.115"
-        type="default,supl"
-        user="world"
-    />
-    <apn
-        mcc="646"
-        mnc="02"
         carrier="Orange World MG"
         apn="orangeworld"
         password="orange"
@@ -95,17 +84,6 @@
         proxy="10.150.0.115"
         type="default,supl"
         user="world"
-    />
-    <apn
-        mcc="646"
-        mnc="02"
-        carrier="Orangenet"
-        apn="orangenet"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="646"

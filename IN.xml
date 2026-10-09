@@ -3174,13 +3174,6 @@
         mcc="404"
         mnc="91"
         carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="91"
-        carrier="Aircel"
         apn="aircelwap"
         type="default,supl"
     />
@@ -4228,13 +4221,6 @@
     <apn
         mcc="405"
         mnc="25"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="25"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4278,13 +4264,6 @@
     <apn
         mcc="405"
         mnc="26"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="26"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4324,13 +4303,6 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
-    />
-    <apn
-        mcc="405"
-        mnc="27"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -4411,13 +4383,6 @@
     <apn
         mcc="405"
         mnc="29"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="29"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4461,13 +4426,6 @@
     <apn
         mcc="405"
         mnc="30"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="30"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4511,13 +4469,6 @@
     <apn
         mcc="405"
         mnc="31"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="31"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4561,13 +4512,6 @@
     <apn
         mcc="405"
         mnc="32"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="32"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4611,13 +4555,6 @@
     <apn
         mcc="405"
         mnc="33"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="33"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4661,13 +4598,6 @@
     <apn
         mcc="405"
         mnc="34"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="34"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4711,13 +4641,6 @@
     <apn
         mcc="405"
         mnc="35"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="35"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4761,13 +4684,6 @@
     <apn
         mcc="405"
         mnc="36"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="36"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4811,13 +4727,6 @@
     <apn
         mcc="405"
         mnc="37"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="37"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4861,13 +4770,6 @@
     <apn
         mcc="405"
         mnc="38"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="38"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4911,13 +4813,6 @@
     <apn
         mcc="405"
         mnc="39"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="39"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -4961,13 +4856,6 @@
     <apn
         mcc="405"
         mnc="40"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="40"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -5011,13 +4899,6 @@
     <apn
         mcc="405"
         mnc="41"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="41"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -5061,13 +4942,6 @@
     <apn
         mcc="405"
         mnc="42"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="42"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -5107,13 +4981,6 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
-    />
-    <apn
-        mcc="405"
-        mnc="43"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -5161,13 +5028,6 @@
     <apn
         mcc="405"
         mnc="44"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="44"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -5207,13 +5067,6 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
-    />
-    <apn
-        mcc="405"
-        mnc="45"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -5261,13 +5114,6 @@
     <apn
         mcc="405"
         mnc="46"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="46"
         carrier="TA TA DoCoMo MMS"
         apn="TATA.DOCOMO.MMS"
         mmsc="http://mmsc/"
@@ -5307,13 +5153,6 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
-    />
-    <apn
-        mcc="405"
-        mnc="47"
-        carrier="TA TA DoCoMo"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -5637,13 +5476,6 @@
         mmsport="9401"
         mmsproxy="10.10.1.100"
         type="mms"
-    />
-    <apn
-        mcc="405"
-        mnc="70"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -5884,13 +5716,6 @@
     <apn
         mcc="405"
         mnc="799"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="799"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -5934,13 +5759,6 @@
     <apn
         mcc="405"
         mnc="800"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="800"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -5979,13 +5797,6 @@
     <apn
         mcc="405"
         mnc="801"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="801"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6024,13 +5835,6 @@
     <apn
         mcc="405"
         mnc="802"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="802"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6069,13 +5873,6 @@
     <apn
         mcc="405"
         mnc="803"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="803"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6114,13 +5911,6 @@
     <apn
         mcc="405"
         mnc="804"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="804"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6159,13 +5949,6 @@
     <apn
         mcc="405"
         mnc="805"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="805"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6204,13 +5987,6 @@
     <apn
         mcc="405"
         mnc="806"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="806"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6249,13 +6025,6 @@
     <apn
         mcc="405"
         mnc="807"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="807"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6294,13 +6063,6 @@
     <apn
         mcc="405"
         mnc="808"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="808"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6333,13 +6095,6 @@
         mcc="405"
         mnc="808"
         carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="809"
-        carrier="Aircel"
         apn="aircelgprs"
         type="default,supl"
     />
@@ -6384,13 +6139,6 @@
     <apn
         mcc="405"
         mnc="810"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="810"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6429,13 +6177,6 @@
     <apn
         mcc="405"
         mnc="811"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="811"
         carrier="Aircel GPRS"
         apn="aircelwap"
         port="8080"
@@ -6468,13 +6209,6 @@
         mcc="405"
         mnc="811"
         carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="812"
-        carrier="Aircel"
         apn="aircelgprs"
         type="default,supl"
     />
@@ -6698,13 +6432,6 @@
     <apn
         mcc="405"
         mnc="845"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="845"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -6748,13 +6475,6 @@
     <apn
         mcc="405"
         mnc="846"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="846"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -6798,13 +6518,6 @@
     <apn
         mcc="405"
         mnc="847"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="847"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -6848,13 +6561,6 @@
     <apn
         mcc="405"
         mnc="848"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="848"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -6893,13 +6599,6 @@
         apn="imis"
         port="8080"
         proxy="10.4.42.15"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="849"
-        carrier="IDEA"
-        apn="internet"
         type="default,supl"
     />
     <apn
@@ -6948,13 +6647,6 @@
     <apn
         mcc="405"
         mnc="850"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="850"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -6993,13 +6685,6 @@
         apn="imis"
         port="8080"
         proxy="10.4.42.15"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="851"
-        carrier="IDEA"
-        apn="internet"
         type="default,supl"
     />
     <apn
@@ -7048,13 +6733,6 @@
     <apn
         mcc="405"
         mnc="852"
-        carrier="IDEA"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="852"
         carrier="IDEA Internet"
         apn="internet"
         type="default,supl"
@@ -7093,13 +6771,6 @@
         apn="imis"
         port="8080"
         proxy="10.4.42.15"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="853"
-        carrier="IDEA"
-        apn="internet"
         type="default,supl"
     />
     <apn

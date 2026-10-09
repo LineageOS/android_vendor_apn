@@ -20,18 +20,6 @@
     <apn
         mcc="226"
         mnc="01"
-        carrier="Vodafone RO"
-        apn="internet.vodafone.ro"
-        mmsc=""
-        password="vodafone"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="internet.vodafone.ro"
-    />
-    <apn
-        mcc="226"
-        mnc="01"
         carrier="Vodafone RO MMS"
         apn="mms.vodafone.ro"
         mmsc="http://multimedia/servlets/mms"

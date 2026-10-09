@@ -32,30 +32,6 @@
     <apn
         mcc="454"
         mnc="00"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01010000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
         carrier="1O1O Tethering"
         apn="lte.internet"
         mvno_match_data="01010000"
@@ -67,15 +43,6 @@
         mnc="00"
         carrier="1O1O Tethering"
         apn="lte.internet"
-        type="dun"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="1O1O Tethering"
-        apn="lte.internet"
-        mvno_match_data="01010000"
-        mvno_type="gid"
         type="dun"
     />
     <apn
@@ -90,30 +57,6 @@
         mvno_match_data="01040000"
         mvno_type="gid"
         type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        mvno_match_data="01030000"
-        mvno_type="gid"
-        type="default,mms"
     />
     <apn
         mcc="454"

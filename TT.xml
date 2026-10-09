@@ -56,18 +56,6 @@
     <apn
         mcc="374"
         mnc="12"
-        carrier="Bmobile MMS"
-        apn="mms"
-        mmsc="http://192.168.210.104/mmrelay.app"
-        mmsport="8080"
-        mmsproxy="192.168.210.104"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="374"
-        mnc="12"
         carrier="Prepaid Data"
         apn="bconnected"
         password=""

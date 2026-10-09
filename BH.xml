@@ -129,13 +129,6 @@
     <apn
         mcc="426"
         mnc="04"
-        carrier="Viva BH"
-        apn="viva.bh"
-        type="default,supl"
-    />
-    <apn
-        mcc="426"
-        mnc="04"
         carrier="Viva BH MMS"
         apn="vivawap.bh"
         mmsc="http://mms.viva.com.bh:38090"

@@ -233,23 +233,6 @@
     <apn
         mcc="208"
         mnc="01"
-        carrier="NRJ MMS"
-        apn="orange.acte"
-        authtype="1"
-        mmsc="http://mms.orange.fr/"
-        mmsport="8080"
-        mmsproxy="192.168.10.200"
-        mvno_match_data="NRJ Mobile"
-        mvno_type="spn"
-        password="orange"
-        port=""
-        proxy=""
-        type="mms"
-        user="orange"
-    />
-    <apn
-        mcc="208"
-        mnc="01"
         carrier="NRJ WAP"
         apn="ofnew.fr"
         mmsc=""
@@ -935,18 +918,6 @@
     <apn
         mcc="208"
         mnc="10"
-        carrier="Web La Poste"
-        apn="wapdebitel"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="192.168.21.3"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
         carrier="internet68"
         apn="internet68"
         mmsc=""
@@ -1287,17 +1258,6 @@
     <apn
         mcc="208"
         mnc="21"
-        carrier="Bouygues Telecom"
-        apn="mmsbouygtel.com"
-        authtype="1"
-        carrier_id="1487"
-        mmsc="http://mms.bouyguestelecom.fr/mms/wapenc"
-        protocol="IPV4V6"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="208"
-        mnc="21"
         carrier="Bouygues Telecom IMS"
         apn="ims"
         bearer_bitmask="14|18|20"
@@ -1305,27 +1265,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
-    />
-    <apn
-        mcc="208"
-        mnc="21"
-        carrier="Bouygues Telecom IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="1487"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="208"
-        mnc="21"
-        carrier="Bouygues XCAP"
-        apn="mmsbouygtel.com"
-        authtype="1"
-        carrier_id="1487"
-        protocol="IPV4V6"
-        type="xcap"
     />
     <apn
         mcc="208"

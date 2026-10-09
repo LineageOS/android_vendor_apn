@@ -122,15 +122,6 @@
     />
     <apn
         mcc="714"
-        mnc="02"
-        carrier="Movistar PA"
-        apn="internet.movistar.pa"
-        password="movistarpa"
-        type="default,supl"
-        user="movistarpa"
-    />
-    <apn
-        mcc="714"
         mnc="020"
         carrier="Movistar INTERNET"
         apn="internet.movistar.pa"

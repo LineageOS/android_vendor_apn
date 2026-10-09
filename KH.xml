@@ -79,13 +79,6 @@
     <apn
         mcc="456"
         mnc="08"
-        carrier="Metfone"
-        apn="Metfone"
-        type="default,supl"
-    />
-    <apn
-        mcc="456"
-        mnc="08"
         carrier="Metfone GPRS"
         apn="Metfone"
         type="default,supl"

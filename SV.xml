@@ -111,20 +111,6 @@
     <apn
         mcc="706"
         mnc="04"
-        carrier="Movistar MMS"
-        apn="mms.movistar.sv"
-        mmsc="http://mms.movistar.sv"
-        mmsport="80"
-        mmsproxy="10.12.20.1"
-        password="movistarsv"
-        port=""
-        proxy=""
-        type="mms"
-        user="movistarsv"
-    />
-    <apn
-        mcc="706"
-        mnc="04"
         carrier="Movistar SV"
         apn="internet.movistar.sv"
         mmsc=""

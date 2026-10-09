@@ -55,18 +55,6 @@
     <apn
         mcc="216"
         mnc="01"
-        carrier="Telenor Net"
-        apn="net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="01"
         carrier="Telenor online"
         apn="online"
         password=""

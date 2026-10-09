@@ -15,38 +15,12 @@
     <apn
         mcc="748"
         mnc="01"
-        carrier="Ancel"
-        apn="ancel"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="748"
-        mnc="01"
         carrier="Ancel MMS"
         apn="mms"
         mmsc="http://mmsc.mms.ancelutil.com.uy"
         mmsport="3128"
         mmsproxy="200.40.246.2"
         type="mms"
-    />
-    <apn
-        mcc="748"
-        mnc="01"
-        carrier="Ancel MMS"
-        apn="mms"
-        mmsc="http://mmsc.mms.ancelutil.com.uy"
-        mmsport="3128"
-        mmsproxy="200.40.246.2"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="748"
@@ -88,36 +62,10 @@
     <apn
         mcc="748"
         mnc="01"
-        carrier="BAM Pepaga Antel"
-        apn="prepago.ancel"
-        mmsc=""
-        password="bam"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="bam"
-    />
-    <apn
-        mcc="748"
-        mnc="01"
         carrier="gprsANCEL"
         apn="gprs.ancel"
         password=""
         type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="748"
-        mnc="01"
-        carrier="mmsANCEL"
-        apn="mms"
-        mmsc="http://mmsc.mms.ancelutil.com.uy"
-        mmsport="3128"
-        mmsproxy="200.40.246.2"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
         user=""
     />
     <apn

@@ -63,20 +63,6 @@
     />
     <apn
         mcc="219"
-        mnc="02"
-        carrier="Tele2 HR"
-        apn="wap.tele2.hr"
-        mmsc="http://mmsc.tele2.hr"
-        mmsport="8080"
-        mmsproxy="193.12.40.66"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="219"
         mnc="10"
         carrier="VIPnet"
         apn="data.vip.hr"

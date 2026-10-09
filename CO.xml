@@ -41,18 +41,6 @@
     />
     <apn
         mcc="732"
-        mnc="102"
-        carrier="Movistar CO"
-        apn="internet.movistar.com.co"
-        mmsc=""
-        password="movistar"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="movistar"
-    />
-    <apn
-        mcc="732"
         mnc="103"
         carrier="TIGO Multimedia"
         apn="mms.colombiamovil.com.co"

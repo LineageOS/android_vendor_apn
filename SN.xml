@@ -15,18 +15,6 @@
     <apn
         mcc="608"
         mnc="01"
-        carrier="Orange MMS"
-        apn="mms"
-        mmsc="http://mmsalize/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.16.30.9"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="608"
-        mnc="01"
         carrier="Orange MMS SN"
         apn="mms"
         mmsc="http://mmsalize/servlets/mms"
@@ -35,17 +23,6 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="608"
-        mnc="01"
-        carrier="Orange WAP"
-        apn="wap"
-        password="wap"
-        port="8080"
-        proxy="172.16.30.9"
-        type="default,supl"
-        user="wap"
     />
     <apn
         mcc="608"

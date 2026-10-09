@@ -101,15 +101,6 @@
     />
     <apn
         mcc="418"
-        mnc="40"
-        carrier="net.korek.com"
-        apn="net.korek.com"
-        password="korek"
-        type="default,supl"
-        user="korek"
-    />
-    <apn
-        mcc="418"
         mnc="45"
         carrier="Mobitel IQ"
         apn="default"
