@@ -124,17 +124,6 @@
         mmsc="http://192.168.58.171:8002"
         mmsport="8080"
         mmsproxy="192.168.59.61"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
         mvno_match_data="01030000"
         mvno_type="gid"
         type="default,mms"

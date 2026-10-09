@@ -167,27 +167,6 @@
     />
     <apn
         mcc="502"
-        mnc="16"
-        carrier="Digi MMS"
-        apn="digimms"
-        mmsc="http://mms.digi.com.my/servlets/mms"
-        mmsport="80"
-        mmsproxy="203.92.128.160"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="502"
-        mnc="18"
-        carrier="U Mobile Internet"
-        apn="my3g"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="502"
         mnc="18"
         carrier="U Mobile Internet"
         apn="my3g"
