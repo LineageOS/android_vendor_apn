@@ -263,20 +263,6 @@
         mmsport="8080"
         mmsproxy="202.152.240.50"
         password="proxl"
-        port=""
-        proxy=""
-        type="mms"
-        user="xlgprs"
-    />
-    <apn
-        mcc="510"
-        mnc="11"
-        carrier="XL-MMS"
-        apn="www.xlmms.net"
-        mmsc="http://mmc.xl.net.id/servlets/mms"
-        mmsport="8080"
-        mmsproxy="202.152.240.50"
-        password="proxl"
         type="mms"
         user="xlgprs"
     />
