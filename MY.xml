@@ -182,15 +182,6 @@
         mnc="18"
         carrier="U Mobile Internet"
         apn="my3g"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="502"
-        mnc="18"
-        carrier="U Mobile Internet"
-        apn="my3g"
         type="default,supl"
     />
     <apn
