@@ -411,18 +411,6 @@
     <apn
         mcc="505"
         mnc="72"
-        carrier="Telstra Internet"
-        apn="Telstra.wap"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="505"
-        mnc="72"
         carrier="Telstra MMS"
         apn="Telstra.mms"
         mmsc="http://mmsc.telstra.com:8002"

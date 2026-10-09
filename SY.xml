@@ -39,11 +39,4 @@
         mmsproxy="10.11.161.131"
         type="mms"
     />
-    <apn
-        mcc="417"
-        mnc="02"
-        carrier="MTN Syria"
-        apn="internet"
-        type="default,supl"
-    />
 </apns>

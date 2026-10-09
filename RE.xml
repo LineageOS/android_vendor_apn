@@ -8,15 +8,6 @@
     <apn
         mcc="647"
         mnc="00"
-        carrier="Internet"
-        apn="orangerun"
-        password="orange"
-        type="default,supl"
-        user="orange"
-    />
-    <apn
-        mcc="647"
-        mnc="00"
         carrier="Orange MMS"
         apn="orangerun.acte"
         mmsc="http://mms.orange.re"

@@ -15,17 +15,6 @@
     <apn
         mcc="415"
         mnc="01"
-        carrier="ALFA_WAP"
-        apn="wap.mic1.com.lb"
-        password="mic1"
-        port="80"
-        proxy="192.168.23.50"
-        type="default,supl"
-        user="mic1"
-    />
-    <apn
-        mcc="415"
-        mnc="01"
         carrier="Alfa"
         apn="internet.mic1.com.lb"
         password="mic1"
