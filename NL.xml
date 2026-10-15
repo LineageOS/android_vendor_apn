@@ -430,14 +430,27 @@
     <apn
         mcc="204"
         mnc="08"
+        carrier="Youfone IMS"
+        apn="ims"
+        mvno_match_data="Youfone"
+        mvno_type="spn"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="204"
+        mnc="08"
         carrier="Youfone Internet"
         apn="internet"
+        mvno_match_data="Youfone"
+        mvno_type="spn"
         password=""
         port=""
         protocol="IPV4V6"
         proxy=""
         roaming_protocol="IPV4V6"
-        type="default,supl"
+        type="default,supl,ia"
         user=""
     />
     <apn
