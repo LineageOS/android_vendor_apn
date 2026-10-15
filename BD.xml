@@ -7,37 +7,6 @@
 <apns version="8">
     <apn
         mcc="470"
-        mnc="01"
-        carrier="Grameenphone"
-        apn="gpinternet"
-        authtype="0"
-        carrier_id="1362"
-        type="default,supl"
-    />
-    <apn
-        mcc="470"
-        mnc="01"
-        carrier="Grameenphone IMS"
-        apn="ims"
-        carrier_id="1362"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="470"
-        mnc="01"
-        carrier="Grameenphone MMS"
-        apn="gpmms"
-        authtype="0"
-        carrier_id="1362"
-        mmsc="http://mms.gpsurf.net/servlets/mms"
-        mmsport="8080"
-        mmsproxy="10.128.1.2"
-        type="mms"
-    />
-    <apn
-        mcc="470"
         mnc="02"
         carrier="Robi"
         apn="internet"

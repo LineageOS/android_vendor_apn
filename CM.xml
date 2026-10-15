@@ -14,41 +14,4 @@
         type="default,supl"
         user="guest"
     />
-    <apn
-        mcc="624"
-        mnc="02"
-        carrier="Orange CM"
-        apn="orangecmgprs"
-        mmsc="http://mms.orange.cm"
-        mmsport="8080"
-        mmsproxy="192.168.122.101"
-        password="orange"
-        port="8080"
-        proxy="192.168.122.101"
-        type="default,mms"
-        user="orange"
-    />
-    <apn
-        mcc="624"
-        mnc="02"
-        carrier="Orange CM MMS"
-        apn="orangecmgprs"
-        mmsc="http://mms.orange.cm"
-        mmsport="8080"
-        mmsproxy="192.168.122.101"
-        password="orange"
-        type="mms"
-        user="orange"
-    />
-    <apn
-        mcc="624"
-        mnc="02"
-        carrier="Orange CM WAP"
-        apn="orangecmgprs"
-        password="orange"
-        port="8080"
-        proxy="192.168.122.101"
-        type="default,supl"
-        user="orange"
-    />
 </apns>
