@@ -1,0 +1,521 @@
+exclude:
+  # Streaming duplicates Internet; credentials and connection fields match, APN differs only in case.
+  - match:
+      carrier: Zain JO Streaming
+      carrier_id: "1578"
+      mcc: "416"
+      mnc: "01"
+      apn: Zain
+      authtype: "1"
+      type: [default, ia, supl]
+  # Skinny Data duplicates Default; Content and MMS are separate profiles.
+  - match:
+      carrier: Data
+      carrier_id: "2105"
+      mcc: "530"
+      mnc: "05"
+      apn: wapaccess.co.nz
+      type: [default, ia, supl]
+      mvno_type: spn
+      mvno_match_data: Skinny
+      proxy: null
+      port: null
+  # Keep equivalent MASMOVIL, which also supports dun; SPN matching ignores case.
+  - match:
+      carrier: MASMovil Internet
+      carrier_id: "2300"
+      mcc: "214"
+      mnc: "03"
+      apn: internetmas
+      type: [default, ia, supl]
+      mvno_type: spn
+      mvno_match_data: MASMovil
+  # Keep equivalent Orange Internet, which also supports supl.
+  - match:
+      carrier: Orange net KE
+      carrier_id: "2210"
+      mcc: "639"
+      mnc: "07"
+      apn: bew.orange.co.ke
+      type: [default, ia]
+  # Keep Willkommen; only the display label and case-insensitive SPN spelling differ.
+  - match:
+      carrier: WILLKOMMEN
+      carrier_id: null
+      mcc: "262"
+      mnc: "02"
+      apn: web.vodafone.de
+      type: [default, ia, supl]
+      mvno_type: spn
+      mvno_match_data: WILLKOMMEN
+  # Keep Korek 9595; Korek 9494 has identical connection settings and service types.
+  - match:
+      carrier: Korek 9494
+      carrier_id: "1983"
+      mcc: "418"
+      mnc: "40"
+      apn: internet.korek.com
+      type: [default, ia, supl]
+
+overrides:
+# Correct the upstream Orange MG MMS port separator; inherit all other fields.
+- match:
+    carrier: Orange MG MMS
+    carrier_id: '1606'
+    mcc: '646'
+    mnc: '02'
+    apn: orangemms
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mmsc: http://10.152.10.70:38090
+- match:
+    carrier: Cosmote Mms
+    carrier_id: '747'
+    mcc: '202'
+    mnc: '01'
+    apn: mms
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: Q Internet
+    carrier_id: '749'
+    mcc: '202'
+    mnc: 09
+    apn: myq
+    mvno_type: spn
+    mvno_match_data: Q-Telcom
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: CTNET
+    carrier_id: '2237'
+    mcc: '204'
+    mnc: '04'
+    apn: ctnet
+    mvno_type: spn
+    mvno_match_data: 中国电信
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Free Re Int
+    carrier_id: '2127'
+    mcc: '208'
+    mnc: '15'
+    apn: free.re
+    mvno_type: gid
+    mvno_match_data: F2330002
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Free Caraibes Guadeloupe
+    carrier_id: null
+    mcc: '208'
+    mnc: '15'
+    apn: free.gp
+    mvno_type: gid
+    mvno_match_data: f007
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Free Caraibes Martinique Guyanne
+    carrier_id: null
+    mcc: '208'
+    mnc: '15'
+    apn: free.mq
+    mvno_type: gid
+    mvno_match_data: f008
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Bouygues Telecom Ut
+    carrier_id: '1487'
+    mcc: '208'
+    mnc: '20'
+    apn: mmsbouygtel.com
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: EE Internet
+    carrier_id: '718'
+    mcc: '234'
+    mnc: '86'
+    apn: everywhere
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: TURKCELL INTERNET
+    carrier_id: '1735'
+    mcc: '286'
+    mnc: '01'
+    apn: internet
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Turkcell IMS
+    carrier_id: '1735'
+    mcc: '286'
+    mnc: '01'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vodafone IMS
+    carrier_id: '1736'
+    mcc: '286'
+    mnc: '02'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Turk Telekom Internet
+    carrier_id: '1737'
+    mcc: '286'
+    mnc: '03'
+    apn: internet
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Turk Telekom IMS
+    carrier_id: '1737'
+    mcc: '286'
+    mnc: '03'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Mobile Internet
+    carrier_id: '2053'
+    mcc: '302'
+    mnc: '220'
+    apn: sp.mb.com
+    mvno_type: gid
+    mvno_match_data: '5043'
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: Koodo
+    carrier_id: '2020'
+    mcc: '302'
+    mnc: '221'
+    apn: sp.koodo.com
+    mvno_type: gid
+    mvno_match_data: 4B4F
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: Internet
+    carrier_id: '1895'
+    mcc: '302'
+    mnc: '490'
+    apn: internet.freedommobile.ca
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: MTS
+    carrier_id: null
+    mcc: '302'
+    mnc: '660'
+    apn: sp.mts
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Tbaytel Internet
+    carrier_id: '2090'
+    mcc: '302'
+    mnc: '720'
+    apn: ltemobile.apn
+    mvno_type: imsi
+    mvno_match_data: 302720x92
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Tbaytel Internet
+    carrier_id: '2090'
+    mcc: '302'
+    mnc: '720'
+    apn: ltemobile.apn
+    mvno_type: gid
+    mvno_match_data: BA
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: OTA
+    carrier_id: '1788'
+    mcc: '310'
+    mnc: '120'
+    apn: otasn
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: MetroPCS 260
+    carrier_id: '1949'
+    mcc: '310'
+    mnc: '260'
+    apn: fast.metropcs.com
+    mvno_type: gid
+    mvno_match_data: 6D38
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Walmart MX
+    carrier_id: '2476'
+    mcc: '334'
+    mnc: '140'
+    apn: internet.wm.com
+    mvno_type: spn
+    mvno_match_data: BAIT
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: 台灣大哥大TS (Internet)
+    carrier_id: '1886'
+    mcc: '466'
+    mnc: '89'
+    apn: internet
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: 台灣大哥大TS (MMS)
+    carrier_id: '1886'
+    mcc: '466'
+    mnc: '89'
+    apn: internet
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Smartfren4G
+    carrier_id: '1978'
+    mcc: '510'
+    mnc: 09
+    apn: Smartfren4G
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: Smartfren4G
+    carrier_id: '1978'
+    mcc: '510'
+    mnc: '28'
+    apn: Smartfren4G
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+- match:
+    carrier: TIM Connect
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '02'
+    apn: timbrasil.br
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM IMS
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '02'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM Connect
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '03'
+    apn: timbrasil.br
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM IMS
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '03'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM Connect
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '04'
+    apn: timbrasil.br
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM IMS
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '04'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo IMS
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '06'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo Xcap
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '06'
+    apn: xcap.ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo IMS
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '10'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo Xcap
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '10'
+    apn: xcap.ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo IMS
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '11'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo Xcap
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '11'
+    apn: xcap.ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo IMS
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '23'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Vivo Xcap
+    carrier_id: '530'
+    mcc: '724'
+    mnc: '23'
+    apn: xcap.ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM Connect
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '54'
+    apn: timbrasil.br
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: TIM IMS
+    carrier_id: '1385'
+    mcc: '724'
+    mnc: '54'
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: T-Mobile IMS
+    carrier_id: '1'
+    mcc: null
+    mnc: null
+    apn: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: Tello
+    carrier_id: '2578'
+    mcc: null
+    mnc: null
+    apn: tello
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
