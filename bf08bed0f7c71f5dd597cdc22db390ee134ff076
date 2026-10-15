@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e8078cc_07fb0f38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 38341
+      },
+      "writtenOn": "2026-10-15T12:51:14Z",
+      "side": 1,
+      "message": "Tested on a Nokia 7.1 (LineageOS 23.2) with a Youfone SIM (MVNO on KPN, 204-08): the \"ims\" APN from this change works for Youfone too, IMS registers with KPN\u0027s P-CSCFs and VoLTE calls work both ways.\n\nYoufone still can\u0027t attach to LTE with this change alone, though. With the wildcard types gone, no 204-08 entry serves \"ia\", so the attach uses the first \"default\" entry, AH Mobiel Internet (protocol IP). Youfone on KPN LTE only grants IPv6 bearers (ONLY_IPV6_ALLOWED), so the attach fails and the phone ends up emergency-only (KPN has dropped 2G for Youfone, cause 11). I\u0027ve uploaded https://review.lineageos.org/c/LineageOS/android_vendor_apn/+/508549 for that: it matches the Youfone entries on SPN, gives Youfone Internet the \"ia\" type and adds a Youfone IMS entry. It doesn\u0027t depend on this change.",
+      "revId": "bf08bed0f7c71f5dd597cdc22db390ee134ff076",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
