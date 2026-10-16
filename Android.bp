@@ -7,7 +7,7 @@ genrule {
     name: "apns-conf",
     out: ["apns-conf.xml"],
     srcs: [
-        ":sample_apns_conf",
+        "upstream/apns-full-conf.xml",
         ":local_apns_conf",
         "merge-apns-conf.yaml",
         ":apns-conf-schema",
@@ -16,7 +16,7 @@ genrule {
         "make-apns",
         "xmllint",
     ],
-    cmd: "$(location make-apns) --source $(location :sample_apns_conf) " +
+    cmd: "$(location make-apns) --source $(location upstream/apns-full-conf.xml) " +
         "--config $(location merge-apns-conf.yaml) " +
         "--schema $(location :apns-conf-schema) --xmllint $(location xmllint) " +
         "$(locations :local_apns_conf) > $(out)",

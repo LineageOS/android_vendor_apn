@@ -28,3 +28,4 @@ repos:
         entry: ./format.py
         language: system
         files: ^.*\.xml$
+        exclude: ^upstream/
