@@ -116,29 +116,6 @@
     />
     <apn
         mcc="250"
-        mnc="30"
-        carrier="MegaFon Internet"
-        apn="Internet"
-        authtype="1"
-        password="gdata"
-        type="default,supl"
-        user="gdata"
-    />
-    <apn
-        mcc="250"
-        mnc="30"
-        carrier="MegaFon MMS"
-        apn="mms"
-        authtype="1"
-        mmsc="http://mmsc:8002"
-        mmsport="8080"
-        mmsproxy="10.10.10.10"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="250"
         mnc="44"
         carrier="Beeline MMS"
         apn="mms.beeline.ru"
@@ -164,19 +141,6 @@
         proxy=""
         type="default,supl"
         user="beeline"
-    />
-    <apn
-        mcc="250"
-        mnc="45"
-        carrier="GPB Mobile"
-        apn="gpb"
-        authtype="1"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="250"

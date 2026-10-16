@@ -7,24 +7,6 @@
     <apn
         mcc="515"
         mnc="66"
-        carrier="DITO IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="515"
-        mnc="66"
-        carrier="DITO Internet"
-        apn="internet.dito.ph"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
-    />
-    <apn
-        mcc="515"
-        mnc="66"
         carrier="DITO MMS"
         apn="mms.dito.ph"
         protocol="IPV4V6"
