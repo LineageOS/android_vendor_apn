@@ -33,18 +33,4 @@
         type="mms"
         user=""
     />
-    <apn
-        mcc="467"
-        mnc="07"
-        carrier="KL．M"
-        apn="KL．M"
-        mmsc="http://10.250.155.30:38090"
-        mmsport="8080"
-        mmsproxy="10.250.155.42"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
 </apns>

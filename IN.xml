@@ -7,62 +7,6 @@
 <apns version="8">
     <apn
         mcc="404"
-        mnc="00"
-        carrier="MTS MMS"
-        apn="MMS"
-        authtype="3"
-        password="MTS"
-        type="mms"
-        user="mms@mms.mtsindia.in"
-    />
-    <apn
-        mcc="404"
-        mnc="00"
-        carrier="MTS MODEM"
-        apn="Modem"
-        authtype="3"
-        password="MTS"
-        type="default,supl"
-        user="internet@internet.mtsindia.in"
-    />
-    <apn
-        mcc="404"
-        mnc="00"
-        carrier="MTS WAP"
-        apn="WAP"
-        authtype="3"
-        password="MTS"
-        type="default,supl"
-        user="wap@wap.mtsindia.in"
-    />
-    <apn
-        mcc="404"
-        mnc="06"
-        carrier="Airtel GPRS"
-        apn="airtelgprs.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="06"
-        carrier="Airtel Live"
-        apn="airtelfun.com"
-        port="8080"
-        proxy="100.1.200.99"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="06"
-        carrier="Airtel MMS"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-    />
-    <apn
-        mcc="404"
         mnc="21"
         carrier="BPL"
         apn="www"
@@ -81,62 +25,5 @@
         proxy="10.0.0.10"
         type="default,supl"
         user="Mobile phone number"
-    />
-    <apn
-        mcc="404"
-        mnc="61"
-        carrier="Airtel GPRS"
-        apn="airtelgprs.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="61"
-        carrier="Airtel Live"
-        apn="airtelfun.com"
-        port="8080"
-        proxy="100.1.200.99"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="61"
-        carrier="Airtel MMS"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.001.201.172"
-        type="mms"
-    />
-    <apn
-        mcc="405"
-        mnc="89"
-        carrier="MTS MMS"
-        apn="MMS"
-        authtype="3"
-        password="MTS"
-        type="mms"
-        user="mms@mms.mtsindia.in"
-    />
-    <apn
-        mcc="405"
-        mnc="89"
-        carrier="MTS MODEM"
-        apn="Modem"
-        authtype="3"
-        password="MTS"
-        type="default,supl"
-        user="internet@internet.mtsindia.in"
-    />
-    <apn
-        mcc="405"
-        mnc="89"
-        carrier="MTS WAP"
-        apn="WAP"
-        authtype="3"
-        password="MTS"
-        type="default,supl"
-        user="wap@wap.mtsindia.in"
     />
 </apns>
