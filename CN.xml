@@ -7,42 +7,6 @@
 <apns version="8">
     <apn
         mcc="460"
-        mnc="12"
-        carrier="IMS"
-        apn="IMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="460"
-        mnc="12"
-        carrier="中国电信 (China Telecom) GPRS"
-        apn="ctnet"
-        authtype="3"
-        password="vnet.mobi"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl,xcap"
-        user="ctnet@mycdma.cn"
-    />
-    <apn
-        mcc="460"
-        mnc="12"
-        carrier="中国电信彩信 (China Telecom)"
-        apn="ctwap"
-        authtype="3"
-        mmsc="http://mmsc.vnet.mobi"
-        mmsport="80"
-        mmsproxy="10.0.0.200"
-        password="vnet.mobi"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="mms"
-        user="ctwap@mycdma.cn"
-    />
-    <apn
-        mcc="460"
         mnc="20"
         carrier="CMCC Internet"
         apn="cmnet"
@@ -58,22 +22,5 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
-    />
-    <apn
-        mcc="460"
-        mnc="99"
-        carrier="APN_NAME_CTWAP"
-        apn="ctwap"
-        authtype="3"
-        mmsc="http://mmsc.vnet.mobi"
-        mmsport="80"
-        mmsproxy="10.0.0.200"
-        password="vnet.mobi"
-        port="80"
-        protocol="IPV4V6"
-        proxy="10.0.0.200"
-        roaming_protocol="IPV4V6"
-        type="default,supl,dun"
-        user="ctwap@mycdma.cn"
     />
 </apns>

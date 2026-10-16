@@ -16,15 +16,4 @@
         type="mms"
         user=""
     />
-    <apn
-        mcc="364"
-        mnc="390"
-        carrier="Postpaid MMS"
-        apn="ppmms1.btcbahamas.com"
-        mmsport="8080"
-        mmsproxy="172.16.220.44"
-        password=""
-        type="mms"
-        user=""
-    />
 </apns>
