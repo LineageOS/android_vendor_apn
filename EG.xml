@@ -28,16 +28,4 @@
         mmsproxy="wemmsc.te.eg"
         type="mms"
     />
-    <apn
-        mcc="602"
-        mnc="12"
-        carrier="Vodafone GPRS Internet"
-        apn="internet.vodafone.net"
-        authtype="2"
-        password="internet"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="internet"
-    />
 </apns>
