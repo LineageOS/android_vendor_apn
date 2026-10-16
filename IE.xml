@@ -6,16 +6,6 @@
 <apns version="8">
     <apn
         mcc="272"
-        mnc="10"
-        carrier="Tesco"
-        apn="tescomobile.liffeytelecom.com"
-        mmsc="http://mmc1/servlets/mms"
-        mmsport="8080"
-        mmsproxy="10.1.11.19"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="272"
         mnc="27"
         carrier="Lidl Connect IE"
         apn="truphone.com"
