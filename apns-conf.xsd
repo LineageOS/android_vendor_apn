@@ -35,7 +35,7 @@
     -->
     <xs:simpleType name="apnType">
         <xs:restriction base="xs:token">
-            <xs:pattern value="(\*|default|mms|supl|dun|hipri|fota|ims|cbs|ia|emergency|mcx|xcap|vsim|bip|enterprise|rcs)(,(\*|default|mms|supl|dun|hipri|fota|ims|cbs|ia|emergency|mcx|xcap|vsim|bip|enterprise|rcs))*"/>
+            <xs:pattern value="((\*|default|mms|supl|dun|hipri|fota|ims|cbs|ia|emergency|mcx|xcap|vsim|bip|enterprise|rcs)(,(\*|default|mms|supl|dun|hipri|fota|ims|cbs|ia|emergency|mcx|xcap|vsim|bip|enterprise|rcs))*)?"/>
         </xs:restriction>
     </xs:simpleType>
 

@@ -5,8 +5,9 @@
 #
 
 import sys
+from pathlib import Path
 from xml.etree import ElementTree
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import quoteattr
 
 apn_attribute_order = ['mcc', 'mnc', 'carrier', 'apn']
 
@@ -23,7 +24,7 @@ def pretty_apn(elem, indent):
     attrs = sorted(elem.attrib.items(), key=sort_apn_attributes)
     lines = [f'{indent}<{elem.tag}']
     for k, v in attrs:
-        lines.append(f'{indent}    {k}="{escape(v)}"')
+        lines.append(f'{indent}    {k}={quoteattr(v)}')
     lines.append(f'{indent}/>')
     return '\n'.join(lines)
 
@@ -35,7 +36,7 @@ def format_elem(elem, depth=0):
     if elem.tag == 'apn':
         out.append(pretty_apn(elem, indent))
     else:
-        attrs = ' '.join(f'{k}="{v}"' for k, v in elem.attrib.items())
+        attrs = ' '.join(f'{k}={quoteattr(v)}' for k, v in elem.attrib.items())
         if attrs:
             out.append(f'{indent}<{elem.tag} {attrs}>')
         else:
@@ -57,14 +58,22 @@ def format_elem(elem, depth=0):
 def process_file(xml_path):
     tree = ElementTree.parse(xml_path)
     formatted = format_elem(tree.getroot())
+    upstream_dir = Path(__file__).resolve().parent / 'upstream'
+    copyright_holders = (
+        ('Google Inc',)
+        if Path(xml_path).resolve().is_relative_to(upstream_dir)
+        else ('Google Inc', 'The LineageOS Project')
+    )
 
     with open(xml_path, 'w', encoding='utf-8') as f:
         header = [
             '<?xml version="1.0" encoding="utf-8"?>',
             # REUSE-IgnoreStart
             '<!--',
-            '    SPDX-FileCopyrightText: Google Inc',
-            '    SPDX-FileCopyrightText: The LineageOS Project',
+            *(
+                f'    SPDX-FileCopyrightText: {holder}'
+                for holder in copyright_holders
+            ),
             '    SPDX-License-Identifier: Apache-2.0',
             '-->\n',
             # REUSE-IgnoreEnd
