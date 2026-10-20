@@ -62,7 +62,7 @@ def process_file(xml_path):
     copyright_holders = (
         ('Google Inc',)
         if Path(xml_path).resolve().is_relative_to(upstream_dir)
-        else ('Google Inc', 'The LineageOS Project')
+        else ('The LineageOS Project',)
     )
 
     with open(xml_path, 'w', encoding='utf-8') as f:
