@@ -6,9 +6,25 @@
 genrule {
     name: "apns-conf",
     out: ["apns-conf.xml"],
+    srcs: [
+        ":upstream_apns_conf",
+        ":local_apns_conf",
+        "merge-apns-conf.yaml",
+        ":apns-conf-schema",
+    ],
+    tools: [
+        "make-apns",
+        "xmllint",
+    ],
+    cmd: "$(location make-apns) --source $(location :upstream_apns_conf) " +
+        "--config $(location merge-apns-conf.yaml) " +
+        "--schema $(location :apns-conf-schema) --xmllint $(location xmllint) " +
+        "$(locations :local_apns_conf) > $(out)",
+}
+
+filegroup {
+    name: "local_apns_conf",
     srcs: ["*.xml"],
-    tools: ["make-apns", "xmllint"],
-    cmd: "XMLLINT=$(location xmllint) $(location make-apns) $(in) > $(out)",
 }
 
 prebuilt_etc_xml {
@@ -23,8 +39,9 @@ filegroup {
     srcs: ["apns-conf.xsd"],
 }
 
-sh_binary_host {
+python_binary_host {
     name: "make-apns",
-    src: "make-apns.sh",
-    required: ["xmllint"],
+    main: "make-apns.py",
+    srcs: ["make-apns.py"],
+    libs: ["pyyaml"],
 }
