@@ -6,82 +6,6 @@
 <apns version="8">
     <apn
         mcc="310"
-        mnc="002"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="002"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="002"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="002"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="003"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="003"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="003"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="003"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
         mnc="005"
         carrier="Verizon CBS"
         apn="VZWAPP"
@@ -155,21 +79,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="027"
-        carrier="metropcs"
-        apn="wap.metropcs.net"
-        mmsc="http://mms.metropcs.net/mmsc"
-        mmsport="3128"
-        mmsproxy=""
-        password="metropcs"
-        port=""
-        proxy=""
-        server="http://mms.metropcs.net/servlets/mmsc"
-        type="default,supl,mms"
-        user="MDN@mymetropcs.com"
     />
     <apn
         mcc="310"
@@ -225,158 +134,6 @@
         port="8080"
         proxy="10.1.20.10"
         type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="481"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="481"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="481"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="481"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="483"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="483"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="483"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="483"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="486"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="486"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="486"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="486"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="489"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="489"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="489"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="489"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
     />
     <apn
         mcc="310"
@@ -461,44 +218,6 @@
         port="80"
         proxy="wireless.cingular.com"
         type="default,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="99"
-        carrier="Verizon CBS"
-        apn="VZWAPP"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="cbs,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="99"
-        carrier="Verizon FOTA"
-        apn="VZWADMIN"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="99"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="99"
-        carrier="Verizon Internet"
-        apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,dun,mms"
     />
     <apn
         mcc="311"
@@ -656,27 +375,6 @@
         port="80"
         proxy="wireless.cingular.com"
         type="default,mms"
-    />
-    <apn
-        mcc="311"
-        mnc="96"
-        carrier="Lyca Mobile"
-        apn="data.lycamobile.com"
-        mmsc="http://lyca.mmsmvno.com/mms/wapenc"
-        password="plus"
-        port=""
-        proxy=""
-        type="default,supl,dun"
-        user="lmus"
-    />
-    <apn
-        mcc="311"
-        mnc="96"
-        carrier="Lycamobile US"
-        apn="data.lycamobile.us"
-        password="plus"
-        type="default,supl"
-        user="lmus"
     />
     <apn
         mcc="311"
