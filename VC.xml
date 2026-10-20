@@ -9,15 +9,6 @@
         mnc="070"
         carrier="Digicel VC"
         apn="wap.digiceloecs.com"
-        password="wap03oecs"
-        type="default,supl"
-        user="wapoecs"
-    />
-    <apn
-        mcc="360"
-        mnc="070"
-        carrier="Digicel VC"
-        apn="wap.digiceloecs.com"
         mmsc=""
         password="wap03oecs"
         port=""

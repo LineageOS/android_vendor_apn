@@ -77,33 +77,6 @@
     />
     <apn
         mcc="460"
-        mnc="15"
-        carrier="CBNET"
-        apn="cbnet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="460"
-        mnc="15"
-        carrier="IA"
-        apn=""
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ia"
-    />
-    <apn
-        mcc="460"
-        mnc="15"
-        carrier="IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="460"
         mnc="20"
         carrier="CMCC HTTP"
         apn="cmwap"
@@ -144,43 +117,5 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
-    />
-    <apn
-        mcc="460"
-        mnc="99"
-        carrier="APN_NAME_CTNET"
-        apn="ctnet"
-        authtype="3"
-        password="vnet.mobi"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl,dun"
-        user="ctnet@mycdma.cn"
-    />
-    <apn
-        mcc="460"
-        mnc="99"
-        carrier="APN_NAME_CTWAP"
-        apn="ctwap"
-        authtype="3"
-        mmsc="http://mmsc.vnet.mobi"
-        mmsport="80"
-        mmsproxy="10.0.0.200"
-        password="vnet.mobi"
-        port="80"
-        protocol="IPV4V6"
-        proxy="10.0.0.200"
-        roaming_protocol="IPV4V6"
-        type="default,supl,dun"
-        user="ctwap@mycdma.cn"
-    />
-    <apn
-        mcc="460"
-        mnc="99"
-        carrier="China Telecom"
-        apn="ctnet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ia"
     />
 </apns>
