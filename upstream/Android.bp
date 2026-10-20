@@ -1,0 +1,4 @@
+filegroup {
+    name: "upstream_apns_conf",
+    srcs: ["apns-conf.xml"],
+}
