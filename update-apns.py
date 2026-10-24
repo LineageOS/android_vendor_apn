@@ -5,6 +5,7 @@ import json
 import os
 import re
 import stat
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -17,7 +18,10 @@ from google.protobuf import (
     text_format,
 )
 
+from format import process_file
+
 SCRIPT_DIR = Path(__file__).resolve().parent
+ANDROID_DIR = SCRIPT_DIR.parents[1]
 
 
 def plmn(attributes):
@@ -178,7 +182,7 @@ def apply_changes(outputs, snapshots):
         raise
 
 
-def run(args):
+def dedup(args):
     paths = sorted(args.local_dir.glob('*.xml'))
     if not paths:
         raise ValueError('No local XML files found')
@@ -248,7 +252,7 @@ def run(args):
         if selected:
             outputs[path] = remove_rows(snapshots[path], rows, selected)
     report = {
-        'mode': 'applied' if args.apply else 'preview',
+        'mode': 'preview' if args.dry_run else 'applied',
         'source': str(args.source),
         'carrier_list': str(args.carrier_list),
         'local_apns': local_count,
@@ -270,7 +274,7 @@ def run(args):
                 indent=2,
             )
             output.write('\n')
-    if args.apply:
+    if not args.dry_run:
         apply_changes(outputs, snapshots)
         if args.report:
             args.report.write_text(
@@ -286,22 +290,100 @@ def run(args):
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
-def main():
+def update_upstream(args):
+    extractor = (
+        ANDROID_DIR
+        / 'lineage/scripts/carriersettings-extractor'
+        / 'carriersettings_extractor.py'
+    ).resolve()
+    configs = args.carriersettings_dir.resolve()
+    destination = args.source
+    if destination.is_symlink():
+        raise ValueError('Upstream APN file must not be a symlink')
+    with tempfile.TemporaryDirectory(dir=destination.parent) as directory:
+        subprocess.run(
+            [
+                sys.executable,
+                str(extractor),
+                '--input',
+                str(configs),
+                '--apns',
+                directory,
+                '--vendor',
+                directory,
+            ],
+            stdout=sys.stderr,
+            check=True,
+        )
+        output = Path(directory) / 'apns-conf.xml'
+        if not read_apns(output.read_bytes()):
+            raise ValueError('Extracted upstream APN file is empty')
+        process_file(output)
+        subprocess.run(
+            [
+                args.xmllint,
+                '--nonet',
+                '--noout',
+                '--schema',
+                str(args.schema),
+                str(output),
+            ],
+            stdout=sys.stderr,
+            check=True,
+        )
+        if destination.exists():
+            output.chmod(stat.S_IMODE(destination.stat().st_mode))
+        output.replace(destination)
+    print(f'Updated {destination}', file=sys.stderr)
+
+
+def parse_args():
     parser = argparse.ArgumentParser(
         description=(
-            'Remove local APNs on PLMNs covered by upstream, regardless '
-            'of APN type or SIM conditions. Default: preview only.'
+            'Refresh upstream APNs and remove local APNs on PLMNs covered '
+            'by upstream, regardless of APN type or SIM conditions. '
+            'Default: update upstream and apply deduplication.'
         )
     )
     parser.add_argument(
-        '--source', type=Path, default=SCRIPT_DIR / 'upstream/apns-conf.xml'
+        'command',
+        nargs='?',
+        choices=('update-upstream', 'dedup'),
+        help=(
+            'Run only upstream extraction or local deduplication; '
+            'omit to run both'
+        ),
     )
-    parser.add_argument('--local-dir', type=Path, default=SCRIPT_DIR)
+    paths = {
+        'carriersettings-dir': (
+            ANDROID_DIR
+            / 'hardware/lineage/generic-ims/carriersettings/configs',
+            'CarrierSettings input directory',
+        ),
+        'source': (
+            SCRIPT_DIR / 'upstream/apns-conf.xml',
+            'Upstream APN XML file',
+        ),
+        'local-dir': (SCRIPT_DIR, 'Local APN XML directory'),
+        'schema': (SCRIPT_DIR / 'apns-conf.xsd', 'APN XML schema file'),
+        'carrier-list': (
+            ANDROID_DIR
+            / 'packages/providers/TelephonyProvider'
+            / 'assets/latest_carrier_id/carrier_list.textpb',
+            'Carrier ID table',
+        ),
+    }
+    for name, (default, description) in paths.items():
+        parser.add_argument(
+            f'--{name}',
+            type=Path,
+            default=default,
+            help=f'{description} (default: %(default)s)',
+        )
     parser.add_argument(
-        '--carrier-list',
-        type=Path,
-        default=SCRIPT_DIR / '../../packages/providers/TelephonyProvider'
-        '/assets/latest_carrier_id/carrier_list.textpb',
+        '--xmllint',
+        default='xmllint',
+        help='XML validation executable (default: %(default)s)',
     )
     parser.add_argument(
         '--report',
@@ -309,15 +391,40 @@ def main():
         help='Write a credential-free JSON report to a new file',
     )
     parser.add_argument(
-        '--apply',
+        '--dry-run',
         action='store_true',
-        help='Delete matching APNs and files left empty',
+        help=(
+            'Preview deduplication using current upstream; '
+            'do not update or write APN files'
+        ),
     )
     args = parser.parse_args()
+    if args.command == 'update-upstream':
+        if args.dry_run:
+            parser.error('--dry-run is only available for deduplication')
+        if args.report:
+            parser.error('--report is only available for deduplication')
+    return args
+
+
+def main():
+    args = parse_args()
     try:
-        run(args)
-    except (OSError, ValueError, expat.ExpatError) as error:
-        print(f'PLMN deduplication failed: {error}', file=sys.stderr)
+        if args.command == 'update-upstream':
+            update_upstream(args)
+        elif args.command == 'dedup':
+            dedup(args)
+        else:
+            if not args.dry_run:
+                update_upstream(args)
+            dedup(args)
+    except (
+        OSError,
+        ValueError,
+        expat.ExpatError,
+        subprocess.CalledProcessError,
+    ) as error:
+        print(f'APN update failed: {error}', file=sys.stderr)
         return 1
     return 0
 
