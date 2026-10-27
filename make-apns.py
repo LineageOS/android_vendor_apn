@@ -70,15 +70,28 @@ def read_apns(path):
 def serialize(version, rows):
     root = ElementTree.Element('apns', {'version': version})
     for attributes in rows:
+        attributes = {
+            key: value.replace('\r', '&#13;')
+            for key, value in attributes.items()
+        }
         ElementTree.SubElement(root, 'apn', attributes)
-    ElementTree.indent(root, space='    ')
+
+    if len(root):
+        root.text = '\n    '
+        for element in root[:-1]:
+            element.tail = '\n    '
+        root[-1].tail = '\n'
+
+    xml = ElementTree.tostring(root, encoding='utf-8')
+    xml = xml.replace(b'&amp;#13;', b'&#13;')
+
     return (
         b'<?xml version="1.0" encoding="utf-8"?>\n'
         b'<!--\n'
         b'    SPDX-FileCopyrightText: Google Inc\n'
         b'    SPDX-FileCopyrightText: The LineageOS Project\n'
         b'    SPDX-License-Identifier: Apache-2.0\n'
-        b'-->\n' + ElementTree.tostring(root, encoding='utf-8') + b'\n'
+        b'-->\n' + xml + b'\n'
     )
 
 
