@@ -112,10 +112,12 @@ def load_config(path, known_attributes):
         config = yaml.load(path.read_bytes(), Loader=StrictLoader)
     except yaml.YAMLError as error:
         raise BuildError(f'{path.name}: invalid YAML') from error
-    if not isinstance(config, dict) or set(config) != {'overrides'}:
-        raise BuildError('Expected build-time override rules')
+    if not isinstance(config, dict) or set(config) != {'overrides', 'excludes'}:
+        raise BuildError('Expected overrides and excludes sections')
     if not isinstance(config['overrides'], list):
         raise BuildError('overrides: expected a list')
+    if not isinstance(config['excludes'], list):
+        raise BuildError('excludes: expected a list')
     for number, rule in enumerate(config['overrides'], 1):
         label = f'overrides[{number}]'
         if not isinstance(rule, dict) or set(rule) != {'match', 'set'}:
@@ -138,6 +140,23 @@ def load_config(path, known_attributes):
                     raise BuildError(
                         f'{label}.{field}: values must be strings or null'
                     )
+    exclude_attributes = {'carrier', 'mcc', 'mnc', 'apn', 'type'}
+    for number, rule in enumerate(config['excludes'], 1):
+        label = f'excludes[{number}]'
+        if not isinstance(rule, dict) or set(rule) != {'match'}:
+            raise BuildError(f'{label}: unexpected rule fields')
+
+        match = rule['match']
+        if not isinstance(match, dict) or set(match) != exclude_attributes:
+            raise BuildError(
+                f'{label}.match: expected carrier, mcc, mnc, apn and type'
+            )
+
+        if not all(
+            isinstance(value, str) and value for value in match.values()
+        ):
+            raise BuildError(f'{label}.match: values must be nonempty strings')
+
     return config
 
 
@@ -187,6 +206,23 @@ def apply_rules(source, config):
     return result
 
 
+def apply_excludes(source, rules):
+    excluded = set()
+    for number, rule in enumerate(rules, 1):
+        found = [
+            identity
+            for identity, attrs in enumerate(source)
+            if matches(attrs, rule['match'])
+        ]
+        excluded.update(found)
+
+    return [
+        attrs
+        for identity, attrs in enumerate(source)
+        if identity not in excluded
+    ]
+
+
 def build(args):
     version, upstream = read_apns(args.source)
     local_rows = []
@@ -206,7 +242,9 @@ def build(args):
     }
     config = load_config(args.config, known_attributes)
     source = apply_rules(deduplicate(upstream), config)
-    content = serialize(version, deduplicate(source + local_rows))
+    merged = deduplicate(source + local_rows)
+    excluded = apply_excludes(merged, config['excludes'])
+    content = serialize(version, excluded)
     validate(content, args, 'Merged output')
     sys.stdout.buffer.write(content)
 
