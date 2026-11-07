@@ -108,6 +108,45 @@ overrides:
     protocol: IPV4V6
     roaming_protocol: IPV4V6
 - match:
+    carrier: 沃3G连接互联网 (China Unicom)
+    carrier_id: '1436'
+    mcc: '460'
+    mnc: '01'
+    apn: 3gnet
+    type: default,supl
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    type: default,ia,supl,xcap
+    roaming_protocol: IPV4V6
+    protocol: IPV4V6
+- match:
+    carrier: China Unicom 3G
+    carrier_id: '1436'
+    mcc: '460'
+    mnc: '09'
+    apn: 3gnet
+    type: default,supl
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    type: default,ia,supl,xcap
+    roaming_protocol: IPV4V6
+    protocol: IPV4V6
+- match:
+    carrier: China Unicom wap
+    carrier_id: '1436'
+    mcc: '460'
+    mnc: '09'
+    apn: 3gwap
+    type: default,mms
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    type: mms
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
     carrier: 台灣大哥大TS (Internet)
     carrier_id: '1886'
     mcc: '466'
