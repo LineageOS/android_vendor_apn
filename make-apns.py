@@ -112,10 +112,34 @@ def load_config(path, known_attributes):
         config = yaml.load(path.read_bytes(), Loader=StrictLoader)
     except yaml.YAMLError as error:
         raise BuildError(f'{path.name}: invalid YAML') from error
-    if not isinstance(config, dict) or set(config) != {'overrides'}:
-        raise BuildError('Expected build-time override rules')
+    if not isinstance(config, dict) or set(config) != {'excludes', 'overrides'}:
+        raise BuildError('Expected build-time exclude/override rules')
+    if not isinstance(config['excludes'], list):
+        raise BuildError('excludes: expected a list')
     if not isinstance(config['overrides'], list):
         raise BuildError('overrides: expected a list')
+    for number, rule in enumerate(config['excludes'], 1):
+        label = f'excludes[{number}]'
+        if not isinstance(rule, dict) or set(rule) != {'match'}:
+            raise BuildError(f'{label}: unexpected rule fields')
+        for field, attributes in rule.items():
+            if not isinstance(attributes, dict) or not attributes:
+                raise BuildError(
+                    f'{label}.{field}: expected nonempty attributes'
+                )
+            if set(attributes) - known_attributes:
+                raise BuildError(f'{label}.{field}: unknown APN attribute')
+            for key, value in attributes.items():
+                if key == 'type' and isinstance(value, list):
+                    if not value or not all(
+                        isinstance(item, str) for item in value
+                    ):
+                        raise BuildError(f'{label}.{field}: invalid type list')
+                    attributes[key] = ','.join(value)
+                elif value is not None and not isinstance(value, str):
+                    raise BuildError(
+                        f'{label}.{field}: values must be strings or null'
+                    )
     for number, rule in enumerate(config['overrides'], 1):
         label = f'overrides[{number}]'
         if not isinstance(rule, dict) or set(rule) != {'match', 'set'}:
@@ -156,6 +180,19 @@ def matches(attributes, conditions):
 
 def apply_rules(source, config):
     targets = {}
+    for number, rule in enumerate(config['excludes'], 1):
+        label = f'excludes[{number}]'
+        found = [
+            identity
+            for identity, attrs in enumerate(source)
+            if matches(attrs, rule['match'])
+        ]
+        if len(found) != 1:
+            raise BuildError(
+                f'{label}: matched {len(found)} upstream APNs; expected one'
+            )
+        for identity in found:
+            targets[identity] = None
     for number, rule in enumerate(config['overrides'], 1):
         label = f'overrides[{number}]'
         found = [
@@ -177,6 +214,8 @@ def apply_rules(source, config):
     for identity, attrs in enumerate(source):
         attributes = dict(attrs)
         if identity in targets:
+            if not targets[identity]:
+                continue
             changes = targets[identity][1]
             for key, value in changes.items():
                 if value is None:
