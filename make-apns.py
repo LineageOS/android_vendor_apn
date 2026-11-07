@@ -112,32 +112,38 @@ def load_config(path, known_attributes):
         config = yaml.load(path.read_bytes(), Loader=StrictLoader)
     except yaml.YAMLError as error:
         raise BuildError(f'{path.name}: invalid YAML') from error
-    if not isinstance(config, dict) or set(config) != {'overrides'}:
-        raise BuildError('Expected build-time override rules')
-    if not isinstance(config['overrides'], list):
-        raise BuildError('overrides: expected a list')
-    for number, rule in enumerate(config['overrides'], 1):
-        label = f'overrides[{number}]'
-        if not isinstance(rule, dict) or set(rule) != {'match', 'set'}:
-            raise BuildError(f'{label}: unexpected rule fields')
-        for field, attributes in rule.items():
-            if not isinstance(attributes, dict) or not attributes:
-                raise BuildError(
-                    f'{label}.{field}: expected nonempty attributes'
-                )
-            if set(attributes) - known_attributes:
-                raise BuildError(f'{label}.{field}: unknown APN attribute')
-            for key, value in attributes.items():
-                if key == 'type' and isinstance(value, list):
-                    if not value or not all(
-                        isinstance(item, str) for item in value
-                    ):
-                        raise BuildError(f'{label}.{field}: invalid type list')
-                    attributes[key] = ','.join(value)
-                elif value is not None and not isinstance(value, str):
+    if not isinstance(config, dict) or set(config) != {'excludes', 'overrides'}:
+        raise BuildError('Expected build-time exclude/override rules')
+    for group, fields in (
+        ('excludes', {'match'}),
+        ('overrides', {'match', 'set'}),
+    ):
+        if not isinstance(config[group], list):
+            raise BuildError(f'{group}: expected a list')
+        for number, rule in enumerate(config[group], 1):
+            label = f'{group}[{number}]'
+            if not isinstance(rule, dict) or set(rule) != fields:
+                raise BuildError(f'{label}: unexpected rule fields')
+            for field, attributes in rule.items():
+                if not isinstance(attributes, dict) or not attributes:
                     raise BuildError(
-                        f'{label}.{field}: values must be strings or null'
+                        f'{label}.{field}: expected nonempty attributes'
                     )
+                if set(attributes) - known_attributes:
+                    raise BuildError(f'{label}.{field}: unknown APN attribute')
+                for key, value in attributes.items():
+                    if key == 'type' and isinstance(value, list):
+                        if not value or not all(
+                            isinstance(item, str) for item in value
+                        ):
+                            raise BuildError(
+                                f'{label}.{field}: invalid type list'
+                            )
+                        attributes[key] = ','.join(value)
+                    elif value is not None and not isinstance(value, str):
+                        raise BuildError(
+                            f'{label}.{field}: values must be strings or null'
+                        )
     return config
 
 
@@ -156,28 +162,31 @@ def matches(attributes, conditions):
 
 def apply_rules(source, config):
     targets = {}
-    for number, rule in enumerate(config['overrides'], 1):
-        label = f'overrides[{number}]'
-        found = [
-            identity
-            for identity, attrs in enumerate(source)
-            if matches(attrs, rule['match'])
-        ]
-        if len(found) != 1:
-            raise BuildError(
-                f'{label}: matched {len(found)} upstream APNs; expected one'
-            )
-        identity = found[0]
-        if identity in targets:
-            raise BuildError(
-                f'{label}: target already used by {targets[identity][0]}'
-            )
-        targets[identity] = (label, rule['set'])
+    for group in ('excludes', 'overrides'):
+        for number, rule in enumerate(config[group], 1):
+            label = f'{group}[{number}]'
+            found = [
+                identity
+                for identity, attrs in enumerate(source)
+                if matches(attrs, rule['match'])
+            ]
+            if len(found) != 1:
+                raise BuildError(
+                    f'{label}: matched {len(found)} upstream APNs; expected one'
+                )
+            identity = found[0]
+            if identity in targets:
+                raise BuildError(
+                    f'{label}: target already used by {targets[identity][0]}'
+                )
+            targets[identity] = (label, rule.get('set'))
     result = []
     for identity, attrs in enumerate(source):
         attributes = dict(attrs)
         if identity in targets:
             changes = targets[identity][1]
+            if changes is None:
+                continue
             for key, value in changes.items():
                 if value is None:
                     attributes.pop(key, None)
