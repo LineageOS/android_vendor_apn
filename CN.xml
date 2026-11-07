@@ -6,6 +6,22 @@
 <apns version="8">
     <apn
         mcc="460"
+        mnc="01"
+        carrier="联通IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="460"
+        mnc="09"
+        carrier="联通IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="460"
         mnc="12"
         carrier="IMS"
         apn="IMS"
