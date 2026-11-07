@@ -199,3 +199,10 @@ overrides:
     mvno_match_data: null
   set:
     roaming_protocol: IPV4V6
+excludes:
+- match:
+    carrier: 沃3G手机上网 (China Unicom)
+    mcc: '460'
+    mnc: '01'
+    apn: 3gwap
+    type: default,supl
