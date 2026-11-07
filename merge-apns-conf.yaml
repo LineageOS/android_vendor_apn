@@ -1,3 +1,10 @@
+excludes:
+- match:
+    carrier: 沃3G手机上网 (China Unicom)
+    mcc: '460'
+    mnc: '01'
+    apn: 3gwap
+    type: default,supl
 overrides:
 - match:
     carrier: Orange MG MMS
