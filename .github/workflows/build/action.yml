@@ -6,8 +6,14 @@ runs:
     steps:
     - name: Install dependencies
       shell: bash
-      run: pip install pre-commit xmlschema
+      run: |
+        sudo apt -U install libxml2-utils
+        pip install pre-commit PyYAML xmlschema
 
     - name: Lint
       shell: bash
       run: pre-commit run --all
+
+    - name: Run
+      shell: bash
+      run: python make-apns.py --source upstream/apns-conf.xml --config merge-apns-conf.yaml --schema apns-conf.xsd *.xml > /dev/null
