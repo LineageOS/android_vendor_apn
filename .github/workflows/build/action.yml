@@ -6,7 +6,9 @@ runs:
     steps:
     - name: Install dependencies
       shell: bash
-      run: pip install pre-commit xmlschema
+      run: |
+        sudo apt -U install libxml2-utils
+        pip install pre-commit PyYAML xmlschema
 
     - name: Lint
       shell: bash
