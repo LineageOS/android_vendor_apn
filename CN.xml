@@ -16,10 +16,30 @@
     />
     <apn
         mcc="460"
+        mnc="03"
+        carrier="中国电信 (China Telecom) NET IMS"
+        apn="ims"
+        carrier_id="2237"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="460"
         mnc="09"
         carrier="中国联通 (China Unicom) NET IMS"
         apn="ims"
         carrier_id="1436"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="460"
+        mnc="11"
+        carrier="中国电信 (China Telecom) NET IMS"
+        apn="ims"
+        carrier_id="2237"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
