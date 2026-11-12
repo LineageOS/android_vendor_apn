@@ -5,6 +5,18 @@ excludes:
     mnc: '01'
     apn: 3gwap
     type: default,supl
+- match:
+    carrier: 'ctlte'
+    mcc: '460'
+    mnc: '11'
+    apn: ctlte
+    type: 'cbs,default,supl,hipri,fota'
+- match:
+    carrier: CTWAP
+    mcc: '460'
+    mnc: '11'
+    apn: ctwap
+    type: mms
 overrides:
 - match:
     carrier: Orange MG MMS
@@ -180,18 +192,6 @@ overrides:
     mvno_match_data: null
   set:
     type: mms
-    protocol: IPV4V6
-    roaming_protocol: IPV4V6
-- match:
-    carrier: CTWAP
-    carrier_id: '2237'
-    mcc: '460'
-    mnc: '11'
-    apn: ctwap
-    type: mms
-    mvno_type: null
-    mvno_match_data: null
-  set:
     protocol: IPV4V6
     roaming_protocol: IPV4V6
 - match:

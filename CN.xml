@@ -37,12 +37,41 @@
     <apn
         mcc="460"
         mnc="11"
+        carrier="中国电信 (China Telecom) NET"
+        apn="ctnet"
+        authtype="3"
+        carrier_id="2237"
+        mtu="1400"
+        password="vnet.mobi"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,supl,xcap"
+        user="ctnet@mycdma.cn"
+    />
+    <apn
+        mcc="460"
+        mnc="11"
         carrier="中国电信 (China Telecom) NET IMS"
         apn="ims"
         carrier_id="2237"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
+    />
+    <apn
+        mcc="460"
+        mnc="11"
+        carrier="中国电信 (China Telecom) WAP&amp;MMS"
+        apn="ctwap"
+        authtype="3"
+        mmsc="http://mmsc.vnet.mobi"
+        mmsport="80"
+        mmsproxy="10.0.0.200"
+        password="vnet.mobi"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="mms"
+        user="ctwap@mycdma.cn"
     />
     <apn
         mcc="460"
